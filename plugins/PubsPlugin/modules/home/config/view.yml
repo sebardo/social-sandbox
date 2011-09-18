@@ -1,0 +1,5 @@
+all:
+  stylesheets:    [/PubsPlugin/css/facebox.css]
+  javascripts:    [/sfDoctrineGuardPlugin/js/jquery-1.6.1.js, /PubsPlugin/js/facebox.js, /PubsPlugin/js/ui.core.js, /PubsPlugin/js/ui.draggable.js, /sfDoctrineGuardPlugin/js/livevalidation_standalone.compressed.js]
+profileSuccess:
+  stylesheets:    [/PubsPlugin/css/follow.css]

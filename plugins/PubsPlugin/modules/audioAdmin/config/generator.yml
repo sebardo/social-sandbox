@@ -1,0 +1,53 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Audio
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          audioAdmin
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:
+        user_id:            { label: User }
+        created_at:         { label: Posted the }
+      list:
+        title:              Audio list
+        display:            [user, _description, created_at]
+        sort:               [created_at, desc]
+        actions:            {}
+
+        object_actions:
+          _edit:            { label: Edit }
+          _delete:          { label: Delete }
+          comments:            {  label: Favlikes }
+        batch_actions:
+          _delete: ~
+      filter:
+        display:            [id, user_id, description]
+      form:
+        display:
+          Author:           [user_id]
+          Body:             [description, is_active]
+        class:              audioAdminForm
+      edit:
+        title:              Edit Audio
+        display: 
+          Author:           [user_id]
+          Body:             [name, description, is_active, created_at, updated_at]
+        actions:
+          _list:            { label: Back to list }
+          _delete:          { label: Delete }
+          save_and_delete:  { label: Save and Delete }
+          save_and_restore: { label: Save and Restore }
+          _save:            { label: Save }
+      new:
+        title:              New Audio
+        display:
+          Author:           [user_id]
+          Body:             [description, is_active]

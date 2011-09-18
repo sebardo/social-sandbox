@@ -1,0 +1,4 @@
+all:
+  audio_commentable: true
+  audio_favlikeable: true
+  gmaps_js:          http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=ABQIAAAAddW2_j-icZZyAl1A2ya7rhRl5JQqZiZG73MOqcIpjYnqDPNJ5hRvzm7HgwP7-5aGQPDsJNWMYE1-Gw

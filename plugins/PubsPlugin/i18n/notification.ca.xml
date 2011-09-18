@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+    <file original="global" source-language="en" datatype="plaintext">
+        <header/>
+        <body>
+            <trans-unit>
+                <source>Notifications List</source>
+                <target>Llista de Notificacions</target>
+            </trans-unit>
+            <trans-unit>
+                <source>has approved your following request.</source>
+                <target>ha aprovat la seva petició de seguiment.</target>
+            </trans-unit>
+            <trans-unit>
+                <source>has published a</source>
+                <target>ha publicat un</target>
+            </trans-unit>
+            <trans-unit>
+                <source>link</source>
+                <target>enllaç</target>
+            </trans-unit>
+            <trans-unit>
+                <source>on your pubs.</source>
+                <target>en les teves pubs.</target>
+            </trans-unit>
+            <trans-unit>
+                <source>audio</source>
+                <target>àudio</target>
+            </trans-unit>
+            <trans-unit>
+                <source>event</source>
+                <target>esdeveniment</target>
+            </trans-unit>
+            <trans-unit>
+                <source>photo</source>
+                <target>foto</target>
+            </trans-unit>
+            <trans-unit>
+                <source>has published on</source>
+                <target>ha publicat en</target>
+            </trans-unit>
+            <trans-unit>
+                <source>your pubs</source>
+                <target>les teves pubs</target>
+            </trans-unit>
+           
+            <trans-unit>
+                <source>comment your</source>
+                <target>ha comentat la teva</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Album</source>
+                <target>Album</target>
+            </trans-unit>
+            <trans-unit>
+                <source>publication</source>
+                <target>publicació</target>
+            </trans-unit>
+            <trans-unit>
+                <source>like your</source>
+                <target>li agrada la teva</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Notifications</source>
+                <target>Notificacions</target>
+            </trans-unit>
+            <trans-unit>
+                <source>See all notification</source>
+                <target>Veure totes les notificacions</target>
+            </trans-unit>
+            
+            
+            
+        </body>
+    </file>
+</xliff>

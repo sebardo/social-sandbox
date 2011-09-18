@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+    <file original="global" source-language="en" datatype="plaintext">
+        <header/>
+        <body>  
+            <trans-unit>
+                <source>Home</source>
+                <target>Anfang</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Pubs</source>
+                <target>Pubs</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Favlikes</source>
+                <target>Gefällt mir</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Followings</source>
+                <target>Wem folge ich</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Followers</source>
+                <target>Anhänger</target>
+            </trans-unit>
+            <trans-unit>
+                <source>New Follows</source>
+                <target>Neue</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Following</source>
+                <target>Folgende</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Follow</source>
+                <target>Folgen</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Your request has been sent.</source>
+                <target>Ihre anfrage wurde gesendet.</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Stop following</source>
+                <target>Aufhören&nbsp;zu&nbsp;folgen</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Cancel request</source>
+                <target>Anfrage abbrechen</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Find accounts to follow:</source>
+                <target>Finden sie konten zu folgen:</target>
+            </trans-unit>
+            <trans-unit>
+                <source>follow </source>
+                <target>folgt </target>
+            </trans-unit>
+            <trans-unit>
+                <source>accounts</source>
+                <target>konten</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Browse accounts</source>
+                <target>browser</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Find Friends</source>
+                <target>Ffreunde finden</target>
+            </trans-unit>
+            <trans-unit>
+                <source>The Fallows</source>
+                <target>Die nachfolger von</target>
+            </trans-unit>
+            <trans-unit>
+                <source>are protected.</source>
+                <target>sind geschützt.</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Only confirmed fans have access to the full profile</source>
+                <target>Nur die benutzer die bestätigt wurden , haben zugriff auf das gesamte profil</target>
+            </trans-unit>
+            <trans-unit>
+                <source>You need to request access before you can continue this account.</source>
+                <target>Sie müssen zugang beantragen bevor sie mit diesen konto vortziehen.</target>
+            </trans-unit>
+            <trans-unit>
+                <source>New following request</source>
+                <target>Neue anfragen des nachfolgen</target>
+            </trans-unit>
+            <trans-unit>
+                <source>has begun to follow</source>
+                <target>hat damit begonnen</target>
+            </trans-unit>
+            <trans-unit>
+                <source>have been sent a following request</source>
+                <target>starten wollen folgen</target>
+            </trans-unit>
+            <trans-unit>
+                <source>The request have been acepted</source>
+                <target>Der Antrag wurde angenommen</target>
+            </trans-unit>
+            <trans-unit>
+                <source>The request have been rejected</source>
+                <target>Die Petition wurde abgelehnt</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Accept</source>
+                <target>Akzeptieren</target>
+            </trans-unit>
+            <trans-unit>
+                <source>No accept</source>
+                <target>Ablehnen</target>
+            </trans-unit> 
+        </body>
+    </file>
+</xliff>

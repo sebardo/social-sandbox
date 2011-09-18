@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+    <file original="global" source-language="en" datatype="plaintext">
+        <header/>
+        <body>
+            <trans-unit>
+                <source>About us</source>
+                <target>Sobre nosaltres</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Social SandBox Project</source>
+                <target>Projecte Social SandBox</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Contact</source>
+                <target>Contacte</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Privacy</source>
+                <target>Privacitat</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Terms</source>
+                <target>Termes d'us</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Help us</source>
+                <target>Ajuda'ns</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Help us improve Social SandBox</source>
+                <target>Ajuda'ns a millorar Social SandBox </target>
+            </trans-unit>
+            <trans-unit>
+                <source>Help us improve the network, errors, criticism, ideas and collaborations to</source>
+                <target>Ajuda'ns a millorar la xarxa, erros, crítiques, idees, col·laboracions a</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Work with the Open Source and the release of knowledge</source>
+                <target>Col-labora amb el programari lliure i la alliberació del coneixement</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Thank you very much!</source>
+                <target>Moltes gràcies!</target>
+            </trans-unit>
+            <trans-unit>
+                <source>SOCIAL SANDBOX PROJECTS</source>
+                <target>PROJECTE SOCIAL SANDBOX</target>
+            </trans-unit>         
+            <trans-unit>
+                <source>An Open Source information network</source>
+                <target>Una xarxa social Open Source</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Social SandBox is an OPEN SOURCE social network of real-time information that allows it to connect to either find interesting photos, audio, events, links and text publications. This OpenSource project was denveloped entirely in Symfony 1.4 and jQuery, and runs on servers with the following features:</source>
+                <target>Social SandBox es una xarxa social Open Source en temps real, que et connecta amb el que creguis interessant fotos, audios, events, enllaços i publicacions de text. Aquest projecte Open Source esta desenvolupat completament amb Symfony 1.4 i està allotjat a un servidor amb les següents característiques:</target>
+            </trans-unit> 
+            <trans-unit>
+                <source>PHP 5 - MySQL 5 and Apache.</source>
+                <target>PHP 5 - MySQL 5 y Apache.</target>
+            </trans-unit>
+            <trans-unit>
+                <source>It is based on a number of plugins that are installed in conjunction, resulting in a social network very easily extensible apliable through its modules. As mentioned these plugins working together offer a complete social network ready for use.</source>
+                <target>Està basat en una serie de plugins que, instal·lats en conjunt, dona com a resultat una xarxa social fàcilment ampliable y extensible a través dels seus mòduls. Els complements treballen en conjunt oferin una completa xarxa social preparada per al seu ús.</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Nordestelabs has developed the following plugins:</source>
+                <target>NordesteLabs ha desenvolupat els següents plugins:</target>
+            </trans-unit> 
+            <trans-unit>
+                <source>Dependents:</source>
+                <target>Dependents:</target>
+            </trans-unit> 
+            <trans-unit>
+                <source>For more information and downloads visit the next link</source>
+                <target>Per a més informació i descàrregues visiteu el següent enllaç:</target>
+            </trans-unit>
+            <trans-unit>
+                <source>About</source>
+                <target>Sobre</target>
+            </trans-unit>
+            <trans-unit>
+                <source>We are freelance programmers, which support the Open Source and offer all kinds of solutions and services on the Internet.</source> 
+                <target>Som programadors freelance que donem suport a l'Open Source i oferim tot tipus de solucions a Internet.</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Contact with us</source>
+                <target>Contacta amb nosaltres</target>
+            </trans-unit> 
+            <trans-unit>
+                <source>Your email address</source>
+                <target>La teva adreça de correu electrònic</target>
+            </trans-unit> 
+            <trans-unit>
+                <source>Your Message</source>
+                <target>El teu missatge</target>
+            </trans-unit> 
+            <trans-unit>
+                <source>Send</source>
+                <target>Enviar</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Privacy Policy</source>
+                <target>Polítiques de privacitat</target>
+            </trans-unit>
+            <trans-unit>
+                <source>It provides this Privacy Policy to inform users of our policies and procedures regarding the collection, use and disclosure of information received by Social SandBox users of Social SandBox sites or that is collected through various web sites and services.</source>
+                <target>S'ofereix aquesta política de privacitat per a informar als usuaris de les nostres polítiques i procediments relatius a la recopilació, us i divulgació de la informació rebuda pels usuaris dels sites SandBox Social o que es recull a través de diversos sites i serveis.</target>
+            </trans-unit>
+            <trans-unit>
+                <source>By using SandBox Social Services users access the collection, storage, use or disclosure of your information as set forth in this Privacy Policy at any country in which Social SandBox operate regardless of where the user lives or enter your data. The use of SandBox Social Services may involve processing of user data and use the services users access to any such transfer and processing.</source>
+                <target>Mitjançant l'ús dels Serveis Socials SandBox els usuaris accedir a la col.lecció, emmagatzematge, ús o divulgació de la seva informació com s'estableix en aquesta Política de Privacitat en qualsevol país on operen SandBox social, independentment d'on viu l'usuari o ingressar seus dades. L'ús de la tecnologia SandBox de Serveis Socials pot implicar el processament de les dades del usuari i l'ús dels serveis als usuaris l'accés a aquest tipus de transferència i el processament.</target>
+            </trans-unit>
+            <trans-unit>
+                <source>If you have questions or comments about this Privacy Policy, please contact us dsastu@gmail.com.</source>
+                <target>Si tens preguntes o comentaris sobre la política de privacitat contatanos a dsastu@gmail.com.</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Basic conditions</source>
+                <target>Condicions bàsiques</target>
+            </trans-unit>
+            <trans-unit>
+                <source>The user is responsible for the use of these services, any user content posted on these Services and any consequences thereof. Any Content that the user give in, submit, post or post will be visible to other users of such services by third parties and web sites (see page Account Settings to control who sees your content).</source>
+                <target>L'usuari és responsable de l'ús d'aquests serveis, els continguts enviats pels usuaris d'aquests serveis i de les conseqüències dels mateixos. Qualsevol contingut que l'usuari cedeixi, enviï, publiqui o missatge serà visible per altres usuaris d'aquests serveis per tercers i els llocs web (vegeu la pàgina Configuració de compte per controlar qui pot veure el seu contingut).</target>
+            </trans-unit>
+            <trans-unit>
+                <source>You only have to publish that Content to which you feel comfortable in sharing under these Terms.</source>
+                <target>Només has de publicar aquest contingut al que vostè se senti còmode en l'intercanvi sota aquests termes.</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Users may only use these services if you accept a binding contract with Social SandBox also receive such services under the laws of the Earth or other applicable jurisdiction. You may only use these services in compliance with these Terms and any law, rule or regulation applicable local, state, national or international.</source>
+                <target>Els usuaris només podran utilitzar aquests serveis si accepta un contracte vinculant amb SandBox socials també reben aquests serveis sota les lleis de la Terra o qualsevol altra jurisdicció aplicable. Només podeu fer servir aquests serveis en el compliment d'aquests Termes i qualsevol llei, norma o reglament local, estatal, nacional o internacional.</target>
+            </trans-unit>
+            <trans-unit>
+                <source>The SandBox Social Services provides are always evolving and the form and nature of these services may eventually change without notice. In addition, Social SandBox may be terminated (permanently or temporarily) providing the Services (or any item of the Services) to the user and / or users with or without notice. Social SandBox reserves the right to limit the use or storage in its sole discretion at any time without notice. The Services may include advertisements, which may be referred to the Content or information from the Services, through questions posed to such Services or other information.</source>
+                <target>Els Serveis Socials qui ofereix SandBox estan en constant evolució i la forma i naturalesa d'aquests serveis amb el temps poden canviar sense previ avís. A més, Socials SandBox pot ser acabat (permanent o temporal) la prestació dels Serveis (o qualsevol altre element dels Serveis) a l'usuari i / o usuaris amb o sense previ avís. Socials SandBox es reserva el dret de limitar l'ús o emmagatzematge a la seva discreció en qualsevol moment sense previ avís. Els serveis poden incloure publicitat, que pot ser referit als continguts o la informació dels Serveis, a través de preguntes plantejades als serveis o qualsevol altra informació.</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Thanks for your contact.</source>
+                <target>Gràcies pel seu contacte.</target>
+            </trans-unit>
+            <trans-unit>
+                <source>We are</source> 
+                <target>Som</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,5 @@
+default:
+  stylesheets:    [/sfDoctrineGuardPlugin/css/sfGuardAuth.css, /sfDoctrineGuardPlugin/css/sfGuardRegister.css, /PubsPlugin/css/main.css]
+  javascripts:    [/sfDoctrineGuardPlugin/js/jquery-1.6.1.js, /sfDoctrineGuardPlugin/js/livevalidation_standalone.compressed.js]
+  has_layout:     true
+  layout:         layout

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+    <file original="global" source-language="en" datatype="plaintext">
+        <header/>
+        <body>  
+            <trans-unit>
+                <source>Menssages</source>
+                <target>Nachrichten</target>
+            </trans-unit>
+            <trans-unit>
+                <source>New Message</source>
+                <target>Neue Nachricht</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Send a message to</source>
+                <target>Eine nachricht schicken an</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Send</source>
+                <target>Senden</target>
+            </trans-unit>
+            <trans-unit>
+                <source>To</source>
+                <target>An</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Subject</source>
+                <target>Angelegenheit</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Message</source>
+                <target>Nachricht</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Your message has been sent</source>
+                <target>Ihre nachricht wurde verschieckt</target>
+            </trans-unit>
+            
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,41 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+homepage:
+  url:   /
+  param: { module: home, action: index }
+
+localized_homepage:
+  url:   /:sf_culture/
+  param: { module: home, action: index }
+  requirements:
+    sf_culture: (?:en|es|fr|it|de|ca)
+change_language:
+  url:   /change_language
+  param: { module: language, action: changeLanguage }
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*
+  
+sf_guard_signin:
+  url:   /login
+  param: { module: sfGuardAuth, action: signin }
+
+sf_guard_signout:
+  url:   /logout
+  param: { module: sfGuardAuth, action: signout }
+
+sf_guard_password:
+  url:   /request_password
+  param: { module: sfGuardAuth, action: password }
+  
+sf_guard_forgot_password:
+  url:   /forgot_password
+  param: { module: sfGuardForgotPassword, action: index }
+  

@@ -1,0 +1,60 @@
+body{
+    background:#fff;
+    font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+    font-size:11px;
+    color:#333;margin:0;
+    padding:0;
+    text-align:left;
+    direction:ltr;
+    unicode-bidi:embed;
+    overflow-y:scroll
+}
+
+.logged_menubar_container {
+    background-color:#444444;
+    height:82px;
+    min-width:964px;
+}
+.form_signin {
+    float: none;
+    color: #ffffff;
+    background-color: #444444;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.form_signin table{
+    padding: 5px;
+    width: 100%;
+}
+.form_signin table tbody tr td a{
+    color: #d2d2d2;
+}
+.form_signin table tbody tr td a:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+.submit {
+    cursor: pointer;
+    -moz-border-radius:5px 5px 5px 5px;
+    background:url("../../PubsPlugin/images/bg-btn-signup.png") repeat-x scroll 0 0 #FFAA22;
+    border:1px solid #FFAA22;
+    color:#333333;
+    display:block;
+    font:bold 18px Arial,Sans-serif;
+    padding:8px 10px;
+    text-align:center;
+    text-decoration:none;
+    text-shadow:0 1px 0 #FFEE66;
+}
+.error{
+      display: block;
+ }   
+.error_list {
+    background: none repeat scroll 0 0 #CC0000;
+    border-radius: 5px 5px 5px 5px;
+    list-style: none outside none;
+    margin: 0;
+    padding: 3px;
+    padding-right: 5px;
+    padding-left: 5px;
+}

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+    <file original="global" source-language="en" datatype="plaintext">
+        <header/>
+        <body>  
+            <trans-unit>
+                <source>Events</source>
+                <target>Eventos</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Create an event</source>
+                <target>Crear un evento</target>
+            </trans-unit>
+            <trans-unit>
+                <source>My events</source>
+                <target>Mis eventos</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Delete</source>
+                <target>Borrar</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Edit</source>
+                <target>Editar</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Events by</source>
+                <target>Eventos de</target>
+            </trans-unit>
+            <trans-unit>
+                <source>All events</source>
+                <target>Todos los eventos</target>
+            </trans-unit>
+            <trans-unit>
+                <source>New Event</source>
+                <target>Nuevo Evento</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Date:</source>
+                <target>Fecha:</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Time:</source>
+                <target>Hora:</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Address:</source>
+                <target>Direccion:</target>
+            </trans-unit>
+            <trans-unit>
+                <source>There's no event to show</source>
+                <target>No hay evento para mostrar</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Name:</source>
+                <target>Nombre</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Description:</source>
+                <target>Descripción</target>
+            </trans-unit>
+            <trans-unit>
+                <source>From:</source>
+                <target>Desde:</target>
+            </trans-unit>
+            <trans-unit>
+                <source>To:</source>
+                <target>Hasta:</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Image:</source>
+                <target>Imagen:</target>
+            </trans-unit>
+            <trans-unit>
+                <source>The address is required.</source>
+                <target>La direccion es requerida.</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Save</source>
+                <target>Guardar</target>
+            </trans-unit>
+            <trans-unit>
+                <source></source>
+                <target></target>
+            </trans-unit>
+            <trans-unit>
+                <source></source>
+                <target></target>
+            </trans-unit>
+            
+            
+        </body>
+    </file>
+</xliff>

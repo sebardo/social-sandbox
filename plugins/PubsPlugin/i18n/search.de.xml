@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+    <file original="global" source-language="en" datatype="plaintext">
+        <header/>
+        <body>  
+            <trans-unit>
+                <source>Erforschung des netzwerk</source>
+                <target>Explorar la Red</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Age</source>
+                <target>Alter</target>
+            </trans-unit>
+            <trans-unit>
+                <source>to</source>
+                <target>zu</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Location</source>
+                <target>Lage</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Update</source>
+                <target>Aktualisieren</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Results</source>
+                <target>Ergebnisse</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

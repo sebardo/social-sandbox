@@ -1,0 +1,27 @@
+####################################################
+#######################INBOX#########################
+Inbox:
+  actAs:
+    Timestampable: ~
+  columns:
+    user_id:        { type: integer, notnull: true }
+    dest_user_id:   { type: integer, notnull: true }
+    title:          { type: string(255), notnull: false }
+    description:    { type: clob, notnull: true }
+    is_active:      { type: boolean}
+    reply:          { type: boolean }
+    record_id:      { type: integer }
+    featured:       { type: boolean }
+  relations:
+    User:
+      class: sfGuardUser
+      local: user_id
+      foreign: id
+      onDelete: CASCADE
+      foreignAlias: Inboxs
+    UserDest:
+      class: sfGuardUser
+      local: dest_user_id
+      foreign: id
+      onDelete: CASCADE
+      foreignAlias: InboxsDest

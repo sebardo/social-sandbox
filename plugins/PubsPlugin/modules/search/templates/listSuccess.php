@@ -1,0 +1,1 @@
+<?php include_partial('right', array('datos' => $datos, 'users' => $users)); ?>

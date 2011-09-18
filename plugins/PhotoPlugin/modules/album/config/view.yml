@@ -1,0 +1,7 @@
+all:
+  stylesheets:    []
+  javascripts:    [/sfDoctrineGuardPlugin/js/jquery-1.4.2.js]
+
+showSuccess:
+  stylesheets:    [ ../PhotoPlugin/css/nyroModal.css, ../PhotoPlugin/js/jqueryui/css/theme/jquery-ui-1.8.9.custom.css, ../PhotoPlugin/css/jquery.Jcrop.css, ../PhotoPlugin/css/galery.css]
+  javascripts:    [ ../PhotoPlugin/js/jquery.Jcrop.min.js, ../PhotoPlugin/js/jquery.nyroModal.custom.js, ../PhotoPlugin/js/jquery.functions.js, ../PhotoPlugin/js/jqueryui/js/jquery-ui-1.8.9.custom.min.js, ../PhotoPlugin/js/jeditable/js/jquery.jeditable.js, ../PhotoPlugin/js/validator/jquery.validate.min.js, ../PhotoPlugin/js/validator/lib/jquery.metadata.js, ../PhotoPlugin/js/galery.js ]

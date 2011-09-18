@@ -1,0 +1,137 @@
+body{
+    height: 100%
+}
+
+
+.footer_menubar_container {
+    background-color: #444444;
+    border-radius: 5px 5px 5px 5px;
+    clear: both;
+    color: #FFFFFF;
+    height: 30px;
+    line-height: 30px;
+    margin: auto;
+    min-width: 980px;
+    text-align: center;
+    width: 980px;
+    margin-top: 18px;
+}
+.footer_menubar_container a {
+    color: #D2D2D2;
+}
+.footer_menubar_container a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+#header {
+    height: 100px;
+}
+#footer {
+    height: 150px;
+    margin-top: 350px;
+    text-align: center;
+}
+#header h1 {
+    color: brown;
+    font-family: "Myriad Pro",Helvetica,Arial,sans-serif;
+    font-size: 45px;
+}
+
+#content {
+    background-color: #FFFFFF;
+    border-radius: 10px 10px 10px 10px;
+    height: 500px;
+    margin: 25px auto 0;
+    width: 980px;
+} 
+.container {
+    margin:0 auto;
+    width:500px;
+}
+.register_form {
+    background-color: #CACACA;
+    border-radius: 10px 10px 10px 10px;
+    color: #444444;
+    float: right;
+    padding: 23px 0 20px 15px;
+    width: 400px;
+    margin-bottom: 18px;
+}
+.register_form div, .register_form_page div{
+    clear: both
+}
+.register_form .label, .register_form_page .label{
+    float:left;
+    line-height:25px;
+    text-align:right;
+    width: 120px;
+    margin-right:4px;
+}
+.register_form .value, .register_form_page .value{
+    padding: 2px;
+    float:left;
+    width: 260px;
+}
+.register_form .submit_register, .register_form_page .submit_register{
+    margin-right:20px;
+}
+.mainTitle{
+    font-size:18px;
+    font-weight:bold;
+    margin-bottom:5px;
+}
+.subtitle{
+    font-size:14px;
+    font-weight:normal;
+    margin-bottom:10px;
+}
+
+.register_form .rows input, .register_form_page .rows input{
+    height:25px;
+    width: 230px;
+    border: 1px solid #DEDEDE;
+}
+.register_form .rows select, .register_form_page .rows select{
+    height:25px;
+}
+
+.register_ok {
+    padding:23px 10px 20px 15px;
+    width: 410px;
+    margin-bottom: 10px;
+    float: none;
+    overflow: hidden;
+    background: #197b46;
+    color: #FFFFFF;
+    -moz-border-radius-bottomleft:10px;
+    -moz-border-radius-bottomright:10px;
+    -moz-border-radius-topleft:10px;
+    -moz-border-radius-topright:10px;
+}
+.register_form_page {
+    background-color: #444444;
+    border-radius: 10px 10px 10px 10px;
+    color: #D2D2D2;
+    float: right;
+    padding: 23px 0 20px 15px;
+    width: 400px;
+    margin-bottom: 18px;
+}
+.submit_register{
+    margin-top: 10px
+}
+.LV_validation_message{
+    height: 15px;
+    margin: 0 2px;
+    margin-left: 7px;
+    outline: medium none;
+    text-indent: -99999px;
+}
+form.forgot_password .LV_validation_message {
+    outline: medium none;
+    margin: 0;
+    text-indent: 0;
+}
+form.forgot_password #recuperar_email_address{
+    margin-right: 5px;
+}

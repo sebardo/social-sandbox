@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+    <file original="global" source-language="en" datatype="plaintext">
+        <header/>
+        <body>  
+            <trans-unit>
+                <source>You must be over 18 years</source>
+                <target>Has de tenir més de 18 anys</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Can't be empty!</source>
+                <target>No pot estar buit</target>
+            </trans-unit>
+             <trans-unit>
+                <source>Search</source>
+                <target>Cercar</target>
+            </trans-unit>           
+            <trans-unit>
+                <source>Home</source>
+                <target>Inici</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Who to follow</source>
+                <target>A qui seguir</target>
+            </trans-unit>
+            <trans-unit>
+                <source>My Profile</source>
+                <target>El meu Perfil</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Inbox</source>
+                <target>Missatges</target>
+            </trans-unit>
+            
+            <trans-unit>
+                <source>Follows</source>
+                <target>Seguidors</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Audios</source>
+                <target>Audios</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Events</source>
+                <target>Events</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Photos</source>
+                <target>Fotos</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Configuration</source>
+                <target>Configuració</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Logout</source>
+                <target>Tancar sessió</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Edit your profile</source>
+                <target>Edita el teu perfil</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Share</source>
+                <target>Compartir</target>
+            </trans-unit>
+            <trans-unit>
+                <source>My</source>
+                <target>Els meus</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Pubs</source>
+                <target>Pubs</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Followings</source>
+                <target>a qui segueixo</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Followers</source>
+                <target>Seguidors</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Likes</source>
+                <target>M'agrada</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Like</source>
+                <target>M'agrada</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Delete</source>
+                <target>Esborrar</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Comments</source>
+                <target>Comentaris</target>
+            </trans-unit>
+            <trans-unit>
+                <source>About</source>
+                <target>Sobre</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Published Successfully</source>
+                <target>Publicació exitosa</target>
+            </trans-unit>
+            <trans-unit>
+                <source>New Text</source>
+                <target>Nou text</target>
+            </trans-unit>
+            <trans-unit>
+                <source>New Link</source>
+                <target>Nou enllaç</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Save</source>
+                <target>Desar</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Attach</source>
+                <target>Adjuntar</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Must be contain a URL</source>
+                <target>Ha de contenir una URL</target>
+            </trans-unit>
+
+            <trans-unit>
+                <source>All Events</source>
+                <target>Tots els events</target>
+            </trans-unit>
+            <trans-unit>
+                <source>My </source>
+                <target>El meu </target>
+            </trans-unit>
+            <trans-unit>
+                <source>Calendar</source>
+                <target>Calendari</target>
+            </trans-unit>
+            <trans-unit>
+                <source>has changed its location to</source>
+                <target>ha canviat la seva ubicació a</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Location</source>
+                <target>Ubicació</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Click to update</source>
+                <target>actualitzar</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,9 @@
+all:
+  stylesheets:    [/PubsPlugin/css/facebox.css]
+  javascripts:    [/sfDoctrineGuardPlugin/js/jquery-1.6.1.js, /PubsPlugin/js/facebox.js, /PubsPlugin/js/ui.core.js, /PubsPlugin/js/ui.draggable.js]
+sharebyMailSuccess:
+  has_layout:     false
+publishingSuccess:
+  has_layout:     false
+sharePubSuccess:
+  javascripts:    [/sfDoctrineGuardPlugin/js/jquery-1.6.1.js, /sfDoctrineGuardPlugin/js/livevalidation_standalone.compressed.js]

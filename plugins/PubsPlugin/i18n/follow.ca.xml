@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+    <file original="global" source-language="en" datatype="plaintext">
+        <header/>
+        <body>  
+            <trans-unit>
+                <source>Home</source>
+                <target>Inici</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Pubs</source>
+                <target>Pubs</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Favlikes</source>
+                <target>M'agrada</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Followings</source>
+                <target>A qui segueixo</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Followers</source>
+               <target>Seguidors</target>
+            </trans-unit>
+            <trans-unit>
+                <source>New Follows</source>
+                <target>Nous</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Following</source>
+                <target>Seguint</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Follow</source>
+                <target>Seguir</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Your request has been sent.</source>
+                <target>La seva solicitud ha estat enviada.</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Stop following</source>
+                <target>Deixar de seguir</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Cancel request</source>
+                <target>Cancel lar sol licitud</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Find accounts to follow:</source>
+                <target>Troba usuaris a qui seguir:</target>
+            </trans-unit>
+            <trans-unit>
+                <source>follow </source>
+                <target>segueix </target>
+            </trans-unit>
+            <trans-unit>
+                <source>accounts</source>
+                <target>comptes</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Browse accounts</source>
+                <target>Navega comptes</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Find Friends</source>
+                <target>Troba amics</target>
+            </trans-unit>
+            <trans-unit>
+                <source>The Fallows</source>
+                <target>Els seguidors de</target>
+            </trans-unit>
+            <trans-unit>
+                <source>are protected.</source>
+                <target>estan protegits.</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Only confirmed fans have access to the full profile</source>
+                <target>Només els usuaris confirmats tenen accés a tot el perfil</target>
+            </trans-unit>
+            <trans-unit>
+                <source>You need to request access before you can continue this account.</source>
+                <target>Necessites sol·licitar accés abans de continuar amb aquest compte.</target>
+            </trans-unit>
+            <trans-unit>
+                <source>New following request</source>
+                <target>Noves sol licituds de sguiment</target>
+            </trans-unit>
+             <trans-unit>
+                <source>has begun to follow</source>
+                <target>a començat a seguir</target>
+            </trans-unit>
+             <trans-unit>
+                <source>have been sent a following request</source>
+                <target>a enviat una sol licitud de seguiment</target>
+            </trans-unit>
+            <trans-unit>
+                <source>The request have been acepted</source>
+                <target>La petició ha estat acceptada</target>
+            </trans-unit>
+            <trans-unit>
+                <source>The request have been rejected</source>
+                <target>La petició ha estat rebutjada</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Accept</source>
+                <target>Acceptar</target>
+            </trans-unit>
+            <trans-unit>
+                <source>No accept</source>
+                <target>Rebutjar</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

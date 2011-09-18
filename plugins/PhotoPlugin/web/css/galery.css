@@ -1,0 +1,363 @@
+#galeryContainer{
+    width: 800px;
+    margin: auto;
+}
+#tools{
+    padding: 10px 0;
+}
+#tools a{
+    padding: 0 5px;
+    border-left: solid 1px #CCCCCC;
+}
+#albums, #photos {
+    -moz-box-shadow: 5px 5px 5px -3px #CCCCCC;
+    -webkit-box-shadow: 5px 5px 5px -3px #CCCCCC;
+    box-shadow: 5px 5px 5px -3px #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    list-style: none outside none;
+    margin-bottom: 10px;
+    padding: 10px;
+    position: relative;
+}
+.album,.photo{
+    float:left;
+    position: relative;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 0 2px .5px #CCCCCC inset, 2px 2px 5px -1px #999999;
+    -webkit-box-shadow: 0 0 2px .5px #CCCCCC inset, 2px 2px 5px -1px #999999;
+    box-shadow: 0 0 2px .5px #CCCCCC inset, 2px 2px 5px -1px #999999;
+    list-style: none;
+}
+.album:hover,.photo:hover{
+    left:1px;
+    top:.5px;
+    -moz-box-shadow: 0px 0px 3px 1px #CCCCCC inset, 2px 2.5px 5px 0px #666666;
+    -webkit-box-shadow: 0px 0px 3px 1px #CCCCCC inset, 2px 2.5px 5px 0px #666666;
+    box-shadow: 0px 0px 3px 1px #CCCCCC inset, 2px 2.5px 5px 0px #666666;
+}
+.photo{
+    margin-right:5px;
+    height: 120px;
+    width: 120px;
+    margin: 0 5px 5px 0;
+}
+.photo img {
+    position: relative;
+    top: 0;
+    left: 0;
+    clip: rect(0pt, 100px, 100px, 0px);
+    margin: 10px;
+    /*    width: 100px;*/
+}
+.album{
+    width: 120px;
+    height: 150px;
+    background-color: #222222;
+    margin-right:5px;
+    text-align: center;
+    line-height: .8em;
+}
+.album img{
+    background-color: #EEEEEE;
+    margin: 10px;
+    /*    width: 100px;*/
+    position: relative;
+    top: 0;
+    left: 0;
+    clip: rect(0pt, 100px, 100px, 0px);
+}
+.album .title, .album .profileTitle {
+    font-size: 12px;
+    height: 20px;
+    overflow: hidden;
+    padding: 2px 0 5px;
+    width: 100%;
+    font-weight: bold;
+}
+.album span{
+    float:left;
+}
+#addAlbum{
+    cursor: pointer;
+}
+#contFormPhoto{
+    display: none;
+    margin: 10px 50% 0 237.5px;
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 0 5px 2px #CCCCCC inset, 2px 2px 5px 0px #000000;
+    -webkit-box-shadow: 0 0 5px 2px #CCCCCC inset, 2px 2px 5px 0px #000000;
+    box-shadow: 0 0 5px 2px #CCCCCC inset, 2px 2px 5px 0px #000000;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+}
+
+.cover{
+    overflow: hidden;
+    height: 120px;
+    width: 100px;
+}
+.icon16 {
+    display:none;
+    height: 16px;
+    left: 0px;
+    overflow: hidden;
+    position: absolute;
+    text-indent: 999px;
+    top: 0px;
+    width: 16px;
+}
+.album:hover .icon16{
+    display: inline;
+}
+
+/******************************************            Formularios            *****************************************/
+
+#formPhoto input[type=file],#formPhoto input[type="text"],#formPhoto ,#formProfilePhoto input[type=file],#formProfilePhoto input[type="text"]{
+    margin: 5px 0;
+}
+.subGroup, .subGroup > div{
+    float: left;
+    width: 282px;
+}
+.subGroup{
+    background-color: #EEEEEE;
+    border: 1px solid #AAAAAA;
+    margin: 5px;
+    padding: 4px;
+    font-size: 12px;
+}
+.contForm .field{
+    position: relative;
+    top:-5px;
+    height: 2em;
+}
+.contForm .label {
+    float: left;
+    font-weight: bold;
+    width: 43px;
+}
+.contForm{
+    overflow: hidden;
+    width: 300px;
+    font-size: 12px;
+    background-repeat: repeat-y;
+}
+#footForm{
+    float: right;
+    margin:5px 15px 5px 0;
+}
+
+/**************************************************    para edicion de imagenesl      ************************************************/
+.photos{ list-style-type: none; margin: 0; padding: 0; }
+.handlerMove{cursor: move;}
+.icons{display: none;position:absolute;width: 100%;top:-3px;padding: 0;}
+.photo:hover .icons, .album:hover .icons{display: block;}
+.title input{height: 1.1em!important;width: 100px!important;border: solid 1px #CCCCCC}
+.field .ui-state-error{float: left;padding: 2px;}
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {cursor:auto;}
+.options {
+    cursor: pointer;
+    left: 105px;
+    overflow: visible;
+    position: absolute;
+    text-indent: 0;
+    top: 2px;
+    z-index: 1;
+}
+.options ul {
+    -moz-box-shadow: 4px 4px 5px -2px;
+    -webkit-box-shadow: 4px 4px 5px -2px;
+    box-shadow: 4px 4px 5px -2px;
+    background: none repeat scroll 0 0 #FFFFCC;
+    border: 1px outset #CCCCCC;
+    display: none;
+    left: 15px;
+    position: relative;
+    width: 200px;
+    font-size: 10px;
+    text-align: left;
+    list-style: none;
+    padding: 0;
+}
+.options:hover ul{
+    display: block;
+}
+.options li{
+    padding: 5px;
+}
+.options li:hover{
+    border: 1px inset #CCCCCC;
+    background: #C2AB8C;
+    color: white;
+    font-weight: bold;
+}
+.options li:hover a{
+    color: inherit;
+}
+
+#contEdit{
+    margin:10px;
+    height: 300px;
+    width: 100%;
+}
+#contEdit>div{
+    border: 1px inset;
+    float: left;
+    margin: 5px;
+    -moz-box-shadow:-1px -1px 2px 1px #CCCCCC;
+    -webkit-box-shadow: -1px -1px 2px 1px #CCCCCC;
+    box-shadow: -1px -1px 2px 1px #CCCCCC;
+    background: #EEEEEE;
+
+}
+input[type=submit],input[type=button],input[type=reset]{
+    margin:5px;
+    float:right;
+}
+#contContEdit{
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 0 5px 2px #CCCCCC inset, 2px 2px 5px 0px #000000;
+    -webkit-box-shadow: 0 0 5px 2px #CCCCCC inset, 2px 2px 5px 0px #000000;
+    box-shadow: 0 0 5px 2px #CCCCCC inset, 2px 2px 5px 0px #000000;
+    background: #EEEEEE;
+    border: 1px solid #CCCCCC;
+}
+
+/**************************************************    para imagen show      ************************************************/
+
+#contPhoto, #footPhoto{
+    font-size: 11px;
+}
+#contPhoto{
+    -moz-box-shadow: 3px 3px 5px -3px #CCCCCC;
+    -webkit-box-shadow: 3px 3px 5px -3px #CCCCCC;
+    box-shadow: 3px 3px 5px -3px #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    text-align: center;
+}
+#contPhoto img{
+    height: 400px;
+    border: 1px inset #CCCCCC;
+}
+
+.title input{
+    height: 1.5em!important;
+    width: 400px!important;
+    border: solid 1px #CCCCCC;
+    padding:0 5px;
+}
+
+#seekPhoto{
+    margin: auto;
+    width: 60%;
+}
+#seekPhoto span{
+    font-weight: bold;
+    width: 50px;
+    margin: 10px;
+}
+#seekPhoto .left{
+    float: left;
+}
+#seekPhoto .right{
+    float: right;
+}
+#viewer{
+    clear:both;
+    margin:5px 65px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 0 5px 2px #CCCCCC inset;
+    -webkit-box-shadow: 0 0 5px 2px #CCCCCC inset;
+    box-shadow: 0 0 5px 2px #CCCCCC inset;
+    border: 1px solid #CCCCCC;
+    padding: 10px;
+}
+
+#photoLeft,#photoCenter,#photoRight{
+    float:left;
+    padding: 10px;
+}
+#photoLeft{
+    width: 220px;
+}
+#photoRight{
+    width: 250px;
+}
+#photoCenter{
+    width:420px;
+}
+#info,#options{
+    -moz-box-shadow: 3px 3px 5px -3px #CCCCCC;
+    -webkit-box-shadow: 3px 3px 5px -3px #CCCCCC;
+    box-shadow: 3px 3px 5px -3px #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    padding:5px 0;
+}
+#options{
+    line-height: 1.5em;
+}
+#options ul{
+    list-style: none;
+    padding: 0;
+}
+#unhook,.save{
+    display:none;
+}
+.tagFrame{
+    border:1px #EEEEEE solid;
+    /*        z-index: 0;*/
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    background: #000000;
+}
+.tagTitle{
+    /*        z-index: 1;*/
+    color:#EEEEEE;
+    font-weight:bold;
+    background-color: #000000;
+    padding: 3px;
+}
+.tag{
+    cursor: pointer;
+}
+.tag:hover{
+    text-decoration: underline;
+}
+.deleteTag{
+    font-size: 9px;
+    cursor: pointer;
+}
+#contTag input{
+    margin-left: 10px;
+}
+#contTag input[type=text]{
+    border: 1px solid #CCCCCC;
+    color: #555555;
+    height: 1.2em;
+    line-height: 1em;
+    position: relative;
+    top: 9px;
+    vertical-align: middle;
+    width: 300px;
+}
+#contTag .error{
+    clear: both;
+    color: red;
+    font-weight: bold;
+    margin: auto auto 10px;
+    padding: 5px;
+    text-align: left;
+    width: 50%;
+}

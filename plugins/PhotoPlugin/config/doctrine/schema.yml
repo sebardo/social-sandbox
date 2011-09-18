@@ -1,0 +1,89 @@
+Photo:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:         { type: integer, primary: true, autoincrement: true }
+    album_id:   { type: integer }
+    title:      { type: string(255) }
+    name:       { type: string(255), notnull: true }
+    ord:        { type: integer(4) }
+    x1:         { type: integer }
+    y1:         { type: integer }
+    x2:         { type: integer }
+    y2:         { type: integer }
+  relations:
+    Album:
+      class:         Album_photo
+      local:         album_id
+      foreign:       id
+      foreignAlias:  Photos
+    Tags:
+      class:        Tags_photo
+      local:        id
+      foreign:      photo_id
+      foreignAlias: Photo
+      foreignType:  one
+      type:         many
+
+Album_photo:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:         { type: integer, primary: true, autoincrement: true }
+    user_id:    { type: integer, notnull: true }
+    cover_id:   { type: integer(4) }
+    ord:        { type: integer(4) }
+    name:       { type: string(255), notnull: true }
+  relations:
+    Favlikes:
+      class:        Favlike
+      local:        id
+      foreign:      record_id
+      foreignAlias: AudioFav
+    User:
+      class:        sfGuardUser
+      local:        user_id
+      foreign:      id
+      foreignAlias: Albums
+    Photos:
+      class:        Photo
+      local:        id
+      foreign:      album_id
+      foreignAlias: Album
+      foreignType:  one
+      type:         many
+
+
+Tags_photo:
+  columns:
+    photo_id:   { type: integer, notnull: true }
+    x1:         { type: integer, notnull: true }
+    y1:         { type: integer, notnull: true }
+    x2:         { type: integer, notnull: true }
+    y2:         { type: integer, notnull: true }
+    name:       { type: string(255), notnull: true }
+  relations:
+    Photo:
+      class:        Photo
+      local:        photo_id
+      foreign:      id
+      foreignAlias: Tags
+      onDelete:     cascade
+Profile_photo:
+  columns:
+    photo_id:    { type: integer, notnull: true }
+    user_id:     { type: integer, notnull: true }
+  relations:
+    User:
+      class:        sfGuardUser
+      local:        user_id
+      foreign:      id
+      foreignAlias: ProfilePhoto
+      type:         one
+      foreignType:         one
+    Photo:
+      class:        Photo
+      local:        photo_id
+      foreign:      id
+      foreignAlias: ProfilePhoto
+      onDelete:     cascade

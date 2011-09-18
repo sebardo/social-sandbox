@@ -1,0 +1,144 @@
+body
+{
+  background: none;
+}
+
+#container
+{
+  width: 100%;
+  background: none;
+}
+
+#content
+{
+  padding: 25px;
+  padding-top: 0;
+}
+
+#menu
+{
+  padding: 10px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #aaa;
+  background-color: #fff;
+}
+
+#menu li
+{
+  margin-right: 15px;
+  display: inline;
+}
+
+#content h1
+{
+  padding: 0;
+  background: transparent;
+  margin-bottom: 20px;
+  font-size: 140%;
+  color: #000;
+}
+
+td, th
+{
+  padding: 7px;
+}
+
+th
+{
+  font-weight: bold;
+}
+
+#footer
+{
+  clear: both;
+  padding: 25px;
+  margin-top: 0;
+  height: auto;
+  font-family: arial,sans-serif;
+  font-size: 80%;
+  float: right;
+  color: #666;
+  background: none;
+}
+
+#footer img
+{
+  vertical-align: middle;
+}
+
+#sf_admin_container fieldset h2
+{
+  font-size: 110%;
+  font-family: arial,sans-serif;
+  font-style: italic;
+}
+
+.sf_admin_form_field_logo div div
+{
+  margin-left: 120px;
+}
+
+#sf_admin_container .sf_admin_form_field_logo div div label
+{
+  display: inline;
+  float: none;
+}
+
+#header
+{
+background-color:#000000;
+}
+
+.row {margin:5px 0px 5px 0px;}
+
+.label {clear:both;}
+.subMenu{
+    position: relative;
+}
+#menu ul > li > ul /* Solo para los ul debajo de los li de primer nivel. */
+{
+   position:absolute;
+   display:none;
+   list-style:none;
+}
+#publiMenu{
+   left:230px;
+   top:55px;
+}
+#DTHMenu{
+   left:310px;
+   top:55px;
+   width: 150px;
+}
+#localizacionMenu{
+   left:460px;
+   top:55px;
+}
+#seccionMenu{
+   left:550px;
+   top:55px;
+}
+#clicktvMenu{
+   left:618px;
+   top:55px;
+}
+#menu ul > li /* Sólo para li de primer nivel */
+{
+   display:inline;
+}
+
+#menu ul > li:hover > ul,#menu ul > li:hover > ul li{
+    display:block;
+}
+
+#menu ul > li:hover > ul li{
+    background-color: #FFFFFF;
+    padding: 2px;
+/*    margin: 2px;*/
+    border: 2px outset #555555;
+}
+#menu ul > li > ul li:hover{
+    background-color: bisque;
+    border: 2px inset #000000;
+}

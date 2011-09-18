@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+    <file original="global" source-language="en" datatype="plaintext">
+        <header/>
+        <body>
+            <trans-unit>
+                <source>Email</source>
+                <target>Correu electrònic</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Username</source>
+                <target>Usuari</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Password</source>
+                <target>Clau</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Remember</source>
+                <target>Recordar</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Have an acount ?</source>
+                <target>Ja tens un compte?</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Sign in</source>
+                <target>Entrar</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Sign up</source>
+                <target>Registra't</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Forgot your password?</source>
+                <target>Has oblidat la clau?</target>
+            </trans-unit>
+            <trans-unit>
+                <source>You don't have the required permission to access this page.</source>
+                <target>No tens els permissos requerits per accedir a aquesta pàgina.</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Sex</source>
+                <target>Sexe</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Birthday</source>
+                <target>Data de naixement</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Do not worry, we can help you get back in to your account safely!</source>
+                <target>No es preocupi, nosaltres t'ajudem a tornar al seu compte de forma segura!</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Fill out the form below to request an e-mail with information on how to reset your password.</source>
+                <target>Ompli el següent formulari per demanar un correu electrònic amb informació sobre com restablir la contrasenya.</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Request</source>
+                <target>Demanar</target>
+            </trans-unit>
+           
+        </body>
+    </file>
+</xliff>

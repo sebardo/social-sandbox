@@ -1,0 +1,30 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Album_photo
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          albumAdmin
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:
+        name:              { label: Title}
+      list:
+        title:              Albums Management
+        display:            [id,cover, =name, User ]
+        layout:             stacked
+        params:             %%id%%<img src=%%cover%% /> <strong>%%name%%</strong> by %%userName%%
+        table_method:       listAllAlbums
+      filter:
+        display:            [user_id, name, created_at, updated_at]
+      form:                 ~
+      edit:
+        title:              Editing Album "%%name%%" by %%user%%.
+      new:
+        title:              New Album

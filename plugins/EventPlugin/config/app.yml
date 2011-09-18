@@ -1,0 +1,4 @@
+all:
+  event_commentable: true
+  event_favlikeable: true
+  gmaps_js:          http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=ABQIAAAAddW2_j-icZZyAl1A2ya7rhQ_yJ6-Q1ba5t2DBAyxmHaY7bhWkxTyef5l6z2etMEPLTt-c_oT7Gk4dw

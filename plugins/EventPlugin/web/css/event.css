@@ -1,0 +1,174 @@
+#eventsContainer{
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.5);
+    margin: 18px auto;
+    position: relative;
+    width: 980px;
+}
+.eventsContainer{
+/*    width: 780px;*/
+}
+#enlaces{
+    padding: 10px;
+    position: absolute;
+    top:-40px;
+    z-index: 1;
+
+    -moz-border-radius:0px 0px 5px 5px;
+    -webkit-border-radius:0px 0px 5px 5px;
+    border-radius:0px 0px 5px 5px;
+    /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+    -moz-box-shadow:2px 2px 3px #999999;
+    -webkit-box-shadow:2px 2px 3px #999999;
+    box-shadow:2px 2px 3px #999999;
+    filter: progid:DXImageTransform.Microsoft.Shadow(strength=2, direction=135, color='#999999');
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(strength=2, Direction=135, Color='#999999')";
+    /*Shadows look very different in IE (Only cardinal directions supported)*/
+    /*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+    /*Element should have a background-color*/
+    /*All filters must be placed together*/
+    /*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+    background: -moz-linear-gradient(top, rgba(85,85,85,0.85) 0%, rgba(85,85,85,0.85) 40%, rgba(14,14,14,0.85) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(85,85,85,0.85)), color-stop(40%,rgba(85,85,85,0.85)), color-stop(100%,rgba(14,14,14,0.85))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(85,85,85,0.85) 0%,rgba(85,85,85,0.85) 40%,rgba(14,14,14,0.85) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(85,85,85,0.85) 0%,rgba(85,85,85,0.85) 40%,rgba(14,14,14,0.85) 100%); /* Opera11.10+ */
+    background: -ms-linear-gradient(top, rgba(85,85,85,0.85) 0%,rgba(85,85,85,0.85) 40%,rgba(14,14,14,0.85) 100%); /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9555555', endColorstr='#d90e0e0e',GradientType=0 ); /* IE6-9 */
+    background: linear-gradient(top, rgba(85,85,85,0.85) 0%,rgba(85,85,85,0.85) 40%,rgba(14,14,14,0.85) 100%); /* W3C */
+
+}
+#enlaces:hover{
+/*    top:0px;*/
+}
+
+
+
+.marker{
+    text-align: left;
+}
+.marker img{
+    width: 60px;
+    position:absolute;
+}
+.marker div{
+    margin:5px;
+}
+.event:hover .marker div a{
+   color: #FFFFFF;
+}
+.marker .content{
+    height: 75px;
+    overflow: hidden;
+    position:relative;
+}
+.marker .infoEvent{
+    font-size: 10px;
+    margin-left: 75px;
+    font-weight: normal;
+}
+.marker .imageEvent{
+    height: 60px;
+    width:60px;
+    overflow: hidden;
+    position:absolute;
+}
+.event{
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top, #ffffff 0%, #cccccc 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#cccccc)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ffffff 0%,#cccccc 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #ffffff 0%,#cccccc 100%); /* Opera11.10+ */
+    background: -ms-linear-gradient(top, #ffffff 0%,#cccccc 100%); /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+    background: linear-gradient(top, #ffffff 0%,#cccccc 100%); /* W3C */
+
+    -moz-box-shadow:2px 2px 2px #000000;
+    -webkit-box-shadow:2px 2px 2px #000000;
+    box-shadow:2px 2px 2px #000000;
+    filter: progid:DXImageTransform.Microsoft.Shadow(strength=2, direction=135, color='#000000');
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(strength=2, Direction=135, Color='#000000')";
+    /*Shadows look very different in IE (Only cardinal directions supported)*/
+
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+
+
+    cursor: pointer;
+    float: left;
+    margin: 5px 10px 5px 5px;
+    width: 225px;
+}
+.event:hover{
+    background: #999999; /* Old browsers */
+    background: -moz-linear-gradient(top, #999999 0%, #555555 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#999999), color-stop(100%,#555555)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #999999 0%,#555555 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #999999 0%,#555555 100%); /* Opera11.10+ */
+    background: -ms-linear-gradient(top, #999999 0%,#555555 100%); /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#999999', endColorstr='#555555',GradientType=0 ); /* IE6-9 */
+    background: linear-gradient(top, #999999 0%,#555555 100%); /* W3C */
+    background: -webkit-gradient(linear, left top, left bottom, from(#999999), to(#555555));
+
+    -moz-box-shadow:0 0 2px #000000;
+    -webkit-box-shadow:0 0 2px #000000;
+    box-shadow:0 0 2px #000000;
+    filter: progid:DXImageTransform.Microsoft.Shadow(strength=0, direction=135, color='#000000');
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(strength=0, Direction=135, Color='#000000')";
+
+    color: #CCCCCC;
+    position: relative;
+    top:2px;
+    left: 2px;
+}
+.event:active{
+    -moz-box-shadow:inset 2px 2px 2px #000000;
+    -webkit-box-shadow:inset 2px 2px 2px #000000;
+    box-shadow:inset 2px 2px 2px #000000;
+}
+#mapContainer{
+    margin:10px auto;
+    padding: 10px;
+    width:800px
+    -moz-box-shadow:0 3px 4px #000000;
+    -webkit-box-shadow:0 3px 4px #000000;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    float: left;
+    height: 100%;
+    position: relative;
+    background-color: #FFFFFF;
+}
+#map, #eventDescription{
+    float:left;
+}
+#eventDescription{
+    width: 530px;
+    height:280px;
+    overflow:hidden;
+    padding: 0 10px;
+    margin: 10px 0;
+}
+#eventDescription:hover{
+    overflow:auto;
+}
+#eventDescription p{
+    /*    padding:10px;*/
+    text-align: justify;
+}
+#eventDescription .imageInP{
+    float: left;
+    margin: 10px;
+    width: 200px;
+}
+.messages-header {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 0;
+    height: 30px;
+    padding: 8px 12px;
+    position: relative;
+}

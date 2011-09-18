@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+    <file original="global" source-language="en" datatype="plaintext">
+        <header/>
+        <body>
+            <trans-unit>
+                <source>About us</source>
+                <target>Über uns</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Social SandBox Project</source>
+                <target>Projekt social sandBox</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Contact</source>
+                <target>Kontakt</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Privacy</source>
+                <target>Datenschutz</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Terms</source>
+                <target>Nutzungsbedingungen</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Help us</source>
+                <target>Helfen sie uns</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Help us improve Social SandBox</source>
+                <target>Helfen sie uns Social SandBoz zu verbessern</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Help us improve the network, errors, criticism, ideas and collaborations to</source>
+                <target>Helfen sie uns das Netzwerk zu verbessern,Fehlern,Kritik, Ideen und beiträge zu </target>
+            </trans-unit>
+            <trans-unit>
+                <source>Work with the Open Source and the release of knowledge</source>
+                <target>Habe mit Open Source zusammen gearbeitet und die Freisitzung von wissen</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Thank you very much!</source>
+                <target>Vielen Dank !</target>
+            </trans-unit>
+            <trans-unit>
+                <source>SOCIAL SANDBOX PROJECTS</source>
+                <target>SOZIAL SANDBOX PROJEKT</target>
+            </trans-unit>         
+            <trans-unit>
+                <source>An Open Source information network</source>
+                <target>Ein soziales Netzwerk Open Source</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Social SandBox is an OPEN SOURCE social network of real-time information that allows it to connect to either find interesting photos, audio, events, links and text publications. This OpenSource project was denveloped entirely in Symfony 1.4 and jQuery, and runs on servers with the following features:</source>
+                <target>Social SandBox ist ein soziales Netzwerk in Echtzeit OPEN SOURCE, dass sie in Verbindung mit irgendetwas bringt was sie interessant finden z.b. Fotos,Audio, Termine, Links und Text Publikationen. Das Open Source Projekt ist komplett in symfony 1.4 und komplett auf Servern entwickelt mit folgenden Eigenschaften:</target>
+            </trans-unit> 
+            <trans-unit>
+                <source>PHP 5 - MySQL 5 and Apache.</source>
+                <target>PHP 5 - MySQL 5 und Apache.</target>
+            </trans-unit>
+            <trans-unit>
+                <source>It is based on a number of plugins that are installed in conjunction, resulting in a social network very easily extensible apliable through its modules. As mentioned these plugins working together offer a complete social network ready for use.</source>
+                <target>Es basiert sich auf einer Reihe von Plugins zusammen installiert basieren einem sozialen Netzwerk sehr leicht stabelbar durchModule. Wie bereits erwähnt diese Ergänzungen zusammen bieten ein komplettes soziales Netzwerk, einsatzbereit.</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Nordestelabs has developed the following plugins:</source>
+                <target>Nordestelabs hat die folgenen plugins entwickelt:</target>
+            </trans-unit> 
+            <trans-unit>
+                <source>Dependents:</source>
+                <target>Abhängig:</target>
+            </trans-unit> 
+            <trans-unit>
+                <source>For more information and downloads visit the next link</source>
+                <target>Für mehr information und runterladungen , besuchen sie den náchsten link</target>
+            </trans-unit>
+            <trans-unit>
+                <source>About</source>
+                <target>Über</target>
+            </trans-unit>
+            <trans-unit>
+                <source>We are freelance programmers, which support the Open Source and offer all kinds of solutions and services on the Internet.</source> 
+                <target>Wir sind freiberufliche Programmierer, die die Open Source unterstützt und anbietet, alle Arten von Internet-Lösungen.</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Contact with us</source>
+                <target>Kontaktieren sie uns</target>
+            </trans-unit> 
+            <trans-unit>
+                <source>Your email address</source>
+                <target>Deine email adresse</target>
+            </trans-unit> 
+            <trans-unit>
+                <source>Your Message</source>
+                <target>Deine Nachricht</target>
+            </trans-unit> 
+            <trans-unit>
+                <source>Send</source>
+                <target>Senden</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Privacy Policy</source>
+                <target>Datenschutz</target>
+            </trans-unit>
+            <trans-unit>
+                <source>It provides this Privacy Policy to inform users of our policies and procedures regarding the collection, use and disclosure of information received by Social SandBox users of Social SandBox sites or that is collected through various web sites and services.</source>
+                <target>Diese Datenschutz erstellt sich für die Benutzer unserer Grundsätze und Verfahren für die Erfassung, Verwendung und Weitergabe von Informationen durch die Nutzer von Social Sites oder SocialSandBox SandBox zu informieren.Und ist durch verschiedene Websites und Dienste erfasst.</target>
+            </trans-unit>
+            <trans-unit>
+                <source>By using SandBox Social Services users access the collection, storage, use or disclosure of your information as set forth in this Privacy Policy at any country in which Social SandBox operate regardless of where the user lives or enter your data. The use of SandBox Social Services may involve processing of user data and use the services users access to any such transfer and processing.</source>
+                <target>Mit der Benutzung von Social Services SandBox , haben die Benutzer Zugriff auf die Sammlung,Lagerung, Verwendung oder Weitergabe Ihrer Daten. Wie es in diesen Datenschutz angegeben ist .In jeden Landt, in dem soziale SandBox gesetzt ist , unabhängig davon, wo der Benutzer wohnt, oder seine daten angegeben hat .Die SandBox Soziale Dienste zu verwenden kann bedeuten ,die Verarbeitung von Nutzerdaten zu beteiligen und die Nutzung von Diensten Benutzern den Zugriff auf eine solche Übertragung und Verarbeitung zu, zu lassen.</target>
+            </trans-unit>
+            <trans-unit>
+                <source>If you have questions or comments about this Privacy Policy, please contact us dsastu@gmail.com.</source>
+                <target>Wenn Sie Fragen oder Anmerkungen haben zu denDatenschutzbestimmungen kontaktieren sie </target>
+            </trans-unit>
+            <trans-unit>
+                <source>Basic conditions</source>
+                <target>Rahmenbedingungen</target>
+            </trans-unit>
+            <trans-unit>
+                <source>The user is responsible for the use of these services, any user content posted on these Services and any consequences thereof. Any Content that the user give in, submit, post or post will be visible to other users of such services by third parties and web sites (see page Account Settings to control who sees your content).</source>
+                <target>Der Benutzer ist verantwortlich für die Nutzung dieser Dienste, die Inhalte von den Nutzern dieser Dienste und deren Folgen. Alle Inhalte, die der Benutzer , übermittetl,veröffentlicht oder Nachricht schickt ,werden sichtbar sein ,für andere Nutzer dieser Dienste und Websiten (siehe Seite Account-Einstellungen zu kontrollieren, wer ihren Inhalt sehen kann).</target>
+            </trans-unit>
+            <trans-unit>
+                <source>You only have to publish that Content to which you feel comfortable in sharing under these Terms.</source>
+                <target>Veröffentlichen sie nur Inhalte, wo sie sich bequem fühlen beim Teilen dieser Bedingungen .</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Users may only use these services if you accept a binding contract with Social SandBox also receive such services under the laws of the Earth or other applicable jurisdiction. You may only use these services in compliance with these Terms and any law, rule or regulation applicable local, state, national or international.</source>
+                <target>Die Benutzer dürfen nur diese Dienste nutzen, wenn Sie einen verbindlichen Vertrag mit sozialen SandBox erhalten und solche Dienstleistungen unter den Gesetzen des Landes oder einen anderen zuständigen Gerichtsbarkeit zu akzeptieren. Sie dürfen nur diese Dienste benutzen in Übereinstimmung mit diesen Nutzungsbedingungen und alle Gesetze, Regeln oder Vorschriften,lokale,staatliche, nationale oder internationale.</target>
+            </trans-unit>
+            <trans-unit>
+                <source>The SandBox Social Services provides are always evolving and the form and nature of these services may eventually change without notice. In addition, Social SandBox may be terminated (permanently or temporarily) providing the Services (or any item of the Services) to the user and / or users with or without notice. Social SandBox reserves the right to limit the use or storage in its sole discretion at any time without notice. The Services may include advertisements, which may be referred to the Content or information from the Services, through questions posed to such Services or other information.</source>
+                <target>Die Soziale Dienste die SandBox anbieten ,können durch ihre natur und form ohne vorherige Ankündigung ständig verändert werden.Darüber hinaus kann SanBox beendet werden ( dauerhaft oder vorübergehend) und die Bereitstellung der Services( oder ein anderes element der Services) mit oder ohne Ankündigung ändern oder beenden. SandBox Social behält sich das Recht vor, die Verwendung oder Lagerung nach eigenem Ermessen jederzeit ohne vorherige Ankündigung zu begrenzen. Dienstleistungen können auch Werbungen sein , die auf den Inhalt oder Informationen aus dem Service bezeichnet werden, können durch Fragen an die Dienstleistungen oder andere Informationen sein.</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Thanks for your contact.</source>
+                <target>Danke für ihren kontakt.</target>
+            </trans-unit>
+            <trans-unit>
+                <source>We are</source> 
+                <target>Wir sind</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

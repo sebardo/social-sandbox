@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+    <file original="global" source-language="en" datatype="plaintext">
+        <header/>
+        <body>        
+            <trans-unit>
+                <source>Configuration</source>
+                <target>Configuració</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Edit my info</source>
+                <target>Editar la meva info</target>
+            </trans-unit>
+            <trans-unit>
+                <source>About me</source>
+                <target>Sobre mi</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Interests</source>
+                <target>Interessos</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Basic Information</source>
+                <target>Informació bàsica</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Details</source>
+                <target>Detalls</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Account Settings and Privacy</source>
+                <target>Configuració del compte i Privacitat</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Name</source>
+                <target>Nom</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Password</source>
+                <target>Clau</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Messaging Settings</source>
+                <target>Configuració de missatges</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Notifications</source>
+                <target>Notificacions</target>
+            </trans-unit>
+            
+            <trans-unit>
+                <source>Who I'd like to meet</source>
+                <target>A qui t'agradaría conéixer?</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Save changes</source>
+                <target>Desar canvis</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Music</source>
+                <target>Musica</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Films</source>
+                <target>Pel-lícules</target>
+            </trans-unit>
+            
+            <trans-unit>
+                <source>Books</source>
+                <target>Llibres</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Television</source>
+                <target>Televisió</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Games</source>
+                <target>Jocs</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Mobil</source>
+                <target>Mòbil</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Sex</source>
+                <target>Sexe</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Date of birth</source>
+                <target>Data d'aniversari</target>
+            </trans-unit>
+            <trans-unit>
+                <source>City</source>
+                <target>Ciutat</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Country</source>
+                <target>País</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Zip code</source>
+                <target>Codi postal</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Native town</source>
+                <target>Ciutat de naixement</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Marital status</source>
+                <target>Estat civil</target>
+            </trans-unit>
+            <trans-unit>
+                <source>I am interested</source>
+                <target>M'interessan</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Religion</source>
+                <target>Religió</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Politic</source>
+                <target>Política</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Smoker</source>
+                <target>Fumador</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Drinker</source>
+                <target>Bevedor</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Education</source>
+                <target>Educació</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Profession</source>
+                <target>Profesió</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Languages</source>
+                <target>Idiomes</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Email Address</source>
+                <target>Correu electrònic</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Username</source>
+                <target>Usuari</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Name</source>
+                <target>Noms</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Last Name</source>
+                <target>Cognom</target>
+            </trans-unit>
+            <trans-unit>
+                <source>required</source>
+                <target>obligatoris</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Current Password</source>
+                <target>Clau actual</target>
+            </trans-unit>
+            <trans-unit>
+                <source>New Password</source>
+                <target>Nova clau</target>
+            </trans-unit>
+            <trans-unit>
+                <source>All  filds are</source>
+                <target>Tots els camps son </target>
+            </trans-unit>
+            <trans-unit>
+                <source>The password is case-sensitive.</source>
+                <target>La clau es case-sensitive. (distingeix majúscules de minúscules)</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Verify Password</source>
+                <target>Verificar clau</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Cancel</source>
+                <target>Cancel-lar</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Change password</source>
+                <target>Canviar clau</target>
+            </trans-unit>
+            
+            <trans-unit>
+                <source>Choose when and how often you send messages to</source>
+                <target>Escollir quan i amb quina freqüència m'envíen missatges a</target>
+            </trans-unit>
+            <trans-unit>
+                <source>change</source>
+                <target>canviar</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Send me an email when</source>
+                <target>Envieu un correu electrònic quan</target>
+            </trans-unit>
+            <trans-unit>
+                <source>When send me a direct message.</source>
+                <target>Quan m'enviin un missatge directe.</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Someone new has followed me.</source>
+                <target>Algú es fa seguidor meu.</target>
+            </trans-unit>
+            <trans-unit>
+                <source>When someone comments on my posts.</source>
+                <target>Quan algú comenti les meves publicacions.</target>
+            </trans-unit>
+            <trans-unit>
+                <source>When someone likes one of my photos, audio or publications.</source>
+                <target>Quan li agradin les meves publicacions a algú.</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Man</source>
+                <target>Home</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Woman</source>
+                <target>Dona</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Information</source>
+                <target>Informació</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

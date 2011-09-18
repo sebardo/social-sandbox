@@ -1,0 +1,27 @@
+Event:
+  actAs:
+    Sluggable:
+      fields: [name]
+      unique: true
+    Timestampable: ~
+  columns:
+    user_id:        { type: integer, notnull: true }
+    name:           { type: string(255), notnull: true }
+    description:    { type: text, notnull: true }
+    date:           { type: date, notnull: true }
+    hour:           { type: time, notnull: true }
+    end_date:       { type: date }
+    end_hour:       { type: time }
+    is_active:      { type: boolean, notnull: true, default: 1 }
+    address:        { type: string(255), notnull: true }
+    latitude:       { type: float(9), scale: 7, notnull: true  }
+    longitude:      { type: float(9), scale: 7, notnull: true  }
+    image:          { type: string(255) }
+  relations:
+    User:
+      class:        sfGuardUser
+      local:        user_id
+      foreign:      id
+      foreignAlias: Events
+
+#########################################

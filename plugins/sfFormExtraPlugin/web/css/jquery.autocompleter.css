@@ -1,0 +1,69 @@
+.ac_results {
+	padding: 0px;
+	border: 1px solid black;
+	background-color: #FFFFFF;
+	overflow: hidden;
+	z-index: 99999;
+}
+
+.ac_results ul {
+	width: 100%;
+	list-style-position: outside;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.ac_results li {
+	margin: 0px;
+	padding: 2px 5px;
+	
+	display: block;
+	/* 
+	if width will be 100% horizontal scrollbar will apear 
+	when scroll mode will be used
+	*/
+	/*width: 100%;*/
+	font: menu;
+	font-size: 12px;
+	/* 
+	it is very important, if line-height not setted or setted 
+	in relative units scroll will be broken in firefox
+	*/
+	line-height: 20px;
+	overflow: hidden;
+
+}
+.ac_results li img{
+	float: left;
+        padding-right: 5px;
+}
+.ac_input{
+    border: 1px solid grey;
+    border-radius: 4px 4px 4px 4px;
+    height: 20px;
+    width: 200px;
+}
+.ac_loading {
+	background: url('../images/ajax-loader.gif') right center no-repeat #FFFFFF!important;
+        z-index: 300;
+}
+
+.ac_odd {
+	background-color: rgba(150, 150, 150, 0.15);
+        color: #444444;
+}
+
+.ac_over {
+	background-color:#666666;
+	color: white !important;
+        cursor: pointer;
+}
+.ac_over:hover a{
+	
+	color: white !important;
+}
+.ac_over a{
+	
+	color: white !important;
+}

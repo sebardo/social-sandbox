@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+    <file original="global" source-language="en" datatype="plaintext">
+        <header/>
+        <body>
+            <trans-unit>
+                <source>Email</source>
+                <target>Email</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Username</source>
+                <target>Utente</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Password</source>
+                <target>Password</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Remember</source>
+                <target>Ricordami</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Have an acount ?</source>
+                <target>Avete già un account?</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Sign in</source>
+                <target>Accedi</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Sign up</source>
+                <target>Iscriviti</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Forgot your password?</source>
+                <target>Problemi ad accedere?</target>
+            </trans-unit>
+            <trans-unit>
+                <source>You don't have the required permission to access this page.</source>
+                <target>Non hai i permessi necessari per accedere a questa pagina.</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Sex</source>
+                <target>Sesso</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Birthday</source>
+                <target>Data di nascita</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Do not worry, we can help you get back in to your account safely!</source>
+                <target>Non preoccupatevi, siamo in grado di favorire il ritorno sicuro il tuo account!</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Fill out the form below to request an e-mail with information on how to reset your password.</source>
+                <target>Compila il modulo sottostante per richiedere una e-mail con le informazioni su come reimpostare la password.</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Request</source>
+                <target>Richiesta</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

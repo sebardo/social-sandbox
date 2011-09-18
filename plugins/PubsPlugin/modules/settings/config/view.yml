@@ -1,0 +1,3 @@
+all:
+  stylesheets:    [/PubsPlugin/css/settings.css]
+  javascripts:    [/sfDoctrineGuardPlugin/js/jquery-1.6.1.js]

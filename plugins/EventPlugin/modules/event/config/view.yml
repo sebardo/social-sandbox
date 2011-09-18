@@ -1,0 +1,7 @@
+all:
+  stylesheets:    [/EventPlugin/css/event.css]
+  javascripts:    [/sfDoctrineGuardPlugin/js/jquery-1.6.1.js]
+newSuccess:
+  stylesheets:    [/EventPlugin/js/dhtmlgoodies_calendar/dhtmlgoodies_calendar.css]
+  javascripts:    [/EventPlugin/js/dhtmlgoodies_calendar/dhtmlgoodies_calendar.js]
+

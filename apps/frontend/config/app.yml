@@ -1,0 +1,9 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/11-App
+
+# default values
+all:
+  #local
+  sf_guard_plugin_success_signin_url: http://social-sandbox/frontend_dev.php
+  base_url: http://social-sandbox/
+  site_name: Social sandbox

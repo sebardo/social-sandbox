@@ -1,0 +1,28 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Photo
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          photoAdmin
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+        title:             New photo
+        display:            [id, thumb, =title, album, user ]
+        layout:             stacked
+        params:             %%id%%<img src=%%thumb%% /> <strong>%%myTitle%%</strong> from %%album%% by %%user%%
+        table_method:       listAllPhotos
+      filter:
+        display:            [album_id, title, name, created_at, updated_at]
+      form:                 ~
+      edit:
+        title:             Editing photo %%title%% from the album %%Album%% by User
+      new:                 {}

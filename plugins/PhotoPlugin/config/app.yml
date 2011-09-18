@@ -1,0 +1,7 @@
+all:
+  profile_album_name: Profile photos
+  wall_album_name: Wall photos
+  photo_commentable: true
+  album_commentable: true
+  photo_favlikeable: true
+  album_favlikeable: true

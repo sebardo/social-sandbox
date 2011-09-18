@@ -1,0 +1,122 @@
+#searchContainer {
+    margin: auto;
+    width: 980px;
+}
+.search_left {
+    float: left;
+    margin: 0 10px 0 0;
+    width: 250px;
+}
+.search_right {
+    float: left;
+    margin: 0 10px 0 0;
+    width: 700px;
+}
+.sidebar {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    float: left;
+    height: 100%;
+    position: relative;
+    z-index: 4;
+}
+.sidebar .header {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 0;
+    height: 25px;
+    padding: 8px 12px;
+    position: relative;
+    z-index: 2;
+}
+ol, ul {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    list-style: none outside none;
+    margin: 0;
+    outline: 0 none;
+    vertical-align: baseline;
+}
+.sidebar > ul > li {
+    margin: 4px 0;
+    width: 220px;
+}
+.sidebar ul li p {
+    color: #000000;
+    display: block;
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    overflow: hidden;
+    padding-left: 10px;
+}
+
+.sidebar ul ul {
+    border-top: 1px solid #DDDDDD;
+    margin-bottom: 10px;
+    width: 220px;
+}
+.sidebar ul ul li {
+    border-bottom: 1px solid #DDDDDD;
+    display: block;
+    overflow: hidden;
+    padding: 6px 15px;
+    white-space: nowrap;
+}
+ul li {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+.sidebar ul li p select {
+    width: auto;
+}
+.sidebar ul li div select {
+    width: 118px;
+}
+.sidebar ul li div{
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.sidebar ul li div div{
+    float: right;
+    overflow: hidden;
+    width: 120px;
+}
+.result{
+    border-bottom: 1px solid #DDDDDD !important;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+ul.users li {
+    background-color: #FFFFFF;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.2);
+    float: left;
+    margin: 4px;
+    overflow: hidden;
+    padding: 5px;
+    width: 80px;
+    cursor: pointer;
+}
+ul.users li div {
+    border: 1px solid #EEEEEE;
+    margin: auto;
+    padding: 2px;
+    width: 70px;
+}
+ul.users li div span{
+    display: block;
+}
+ul.users li img {
+    float: none;
+}

@@ -1,0 +1,430 @@
+div.jp-audio, div.jp-video {
+    color: #666666;
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 1em;
+    line-height: 1.6;
+}
+div.jp-audio {
+    float: left;
+    /*    width: 250px;*/
+}
+div.jp-video-270p {
+    width: 480px;
+}
+div.jp-video-360p {
+    width: 640px;
+}
+div.jp-interface {
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    /*    border: 1px solid #FFFFFF;*/
+    position: relative;
+    width: 100%;
+}
+div.jp-audio div.jp-type-single div.jp-interface {
+    border-bottom: medium none;
+    height: 80px;
+}
+div.jp-audio div.jp-type-playlist div.jp-interface {
+    height: 80px;
+}
+div.jp-video div.jp-type-single div.jp-interface {
+    border-bottom: medium none;
+    height: 60px;
+}
+div.jp-video div.jp-type-playlist div.jp-interface {
+    height: 60px;
+}
+div.jp-interface ul.jp-controls {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+div.jp-interface ul.jp-controls li {
+    display: inline;
+}
+div.jp-interface ul.jp-controls a {
+    overflow: hidden;
+    position: absolute;
+    text-indent: -9999px;
+}
+a.jp-play, a.jp-pause {
+    height: 30px;
+    width: 30px;
+    z-index: 1;
+}
+div.jp-audio div.jp-type-single a.jp-play, div.jp-audio div.jp-type-single a.jp-pause {
+    /*    left: 40px;
+        top: 10px;*/
+}
+div.jp-audio div.jp-type-playlist a.jp-play, div.jp-audio div.jp-type-playlist a.jp-pause {
+    left: 38px;
+    top: 10px;
+}
+div.jp-video a.jp-play, div.jp-video a.jp-pause {
+    top: 15px;
+}
+div.jp-video-270p div.jp-type-single a.jp-play, div.jp-video-270p div.jp-type-single a.jp-pause {
+    left: 195px;
+}
+div.jp-video-270p div.jp-type-playlist a.jp-play, div.jp-video-270p div.jp-type-playlist a.jp-pause {
+    left: 220px;
+}
+div.jp-video-360p div.jp-type-single a.jp-play, div.jp-video-360p div.jp-type-single a.jp-pause {
+    left: 275px;
+}
+div.jp-video-360p div.jp-type-playlist a.jp-play, div.jp-video-360p div.jp-type-playlist a.jp-pause {
+    left: 300px;
+}
+a.jp-play {
+    background: url("jplayer.blue.monday.png") no-repeat scroll 0 0 transparent;
+}
+a.jp-play:hover {
+    background: url("jplayer.blue.monday.png") no-repeat scroll -41px 0 transparent;
+}
+a.jp-pause {
+    background: url("jplayer.blue.monday.png") no-repeat scroll 0 -42px transparent;
+    display: none;
+}
+a.jp-pause:hover {
+    background: url("jplayer.blue.monday.png") no-repeat scroll -41px -42px transparent;
+}
+div.jp-audio div.jp-type-single a.jp-stop {
+    left: 90px;
+    top: 26px;
+}
+div.jp-audio div.jp-type-playlist a.jp-stop {
+    left: 116px;
+    top: 16px;
+}
+div.jp-video a.jp-stop {
+    top: 21px;
+}
+div.jp-video-270p div.jp-type-single a.jp-stop {
+    left: 245px;
+}
+div.jp-video-270p div.jp-type-playlist a.jp-stop {
+    left: 298px;
+}
+div.jp-video-360p div.jp-type-single a.jp-stop {
+    left: 325px;
+}
+div.jp-video-360p div.jp-type-playlist a.jp-stop {
+    left: 378px;
+}
+a.jp-stop {
+    background: url("jplayer.blue.monday.png") no-repeat scroll 0 -83px transparent;
+    height: 28px;
+    width: 28px;
+    z-index: 1;
+}
+a.jp-stop:hover {
+    background: url("jplayer.blue.monday.png") no-repeat scroll -29px -83px transparent;
+}
+div.jp-audio div.jp-type-playlist a.jp-previous {
+    left: 10px;
+    top: 16px;
+}
+div.jp-video div.jp-type-playlist a.jp-previous {
+    top: 21px;
+}
+div.jp-video-270p div.jp-type-playlist a.jp-previous {
+    left: 192px;
+}
+div.jp-video-360p div.jp-type-playlist a.jp-previous {
+    left: 272px;
+}
+a.jp-previous {
+    background: url("jplayer.blue.monday.png") no-repeat scroll 0 -112px transparent;
+    height: 28px;
+    width: 28px;
+}
+a.jp-previous:hover {
+    background: url("jplayer.blue.monday.png") no-repeat scroll -29px -112px transparent;
+}
+div.jp-audio div.jp-type-playlist a.jp-next {
+    left: 78px;
+    top: 16px;
+}
+div.jp-video div.jp-type-playlist a.jp-next {
+    top: 21px;
+}
+div.jp-video-270p div.jp-type-playlist a.jp-next {
+    left: 260px;
+}
+div.jp-video-360p div.jp-type-playlist a.jp-next {
+    left: 340px;
+}
+a.jp-next {
+    background: url("jplayer.blue.monday.png") no-repeat scroll 0 -141px transparent;
+    height: 28px;
+    width: 28px;
+}
+a.jp-next:hover {
+    background: url("jplayer.blue.monday.png") no-repeat scroll -29px -141px transparent;
+}
+div.jp-progress {
+    background: url("jplayer.blue.monday.png") repeat-x scroll 0 -202px transparent;
+    overflow: hidden;
+    position: absolute;
+}
+div.jp-audio div.jp-type-single div.jp-progress {
+    height: 15px;
+    left: 130px;
+    top: 32px;
+    width: 122px;
+}
+.iframe_audio_more_listen div.jp-audio div.jp-type-single div.jp-progress {
+    height: 12px;
+    left: 40px;
+    top: 13px;
+    width: 200px;
+}
+div.jp-audio div.jp-type-playlist div.jp-progress {
+    height: 12px;
+    left: 20px;
+    top: 62px;
+    width: 200px;
+}
+div.jp-video div.jp-progress {
+    height: 10px;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+div.jp-seek-bar {
+    background: url("jplayer.blue.monday.png") repeat-x scroll 0 -202px transparent;
+    cursor: pointer;
+    height: 100%;
+    width: 0;
+}
+div.jp-play-bar {
+    background: url("jplayer.blue.monday.png") repeat-x scroll 0 -214px transparent;
+    height: 100%;
+    width: 0;
+}
+div.jp-seeking-bg {
+    background: url("pbar-ani.gif") repeat scroll 0 0 transparent;
+}
+a.jp-mute, a.jp-unmute {
+    height: 15px;
+    width: 18px;
+}
+div.jp-audio div.jp-type-single a.jp-mute, div.jp-audio div.jp-type-single a.jp-unmute {
+    left: 230px;
+    top: 38px;
+}
+div.jp-audio div.jp-type-playlist a.jp-mute, div.jp-audio div.jp-type-playlist a.jp-unmute {
+    left: 150px;
+    top: 22px;
+}
+div.jp-video a.jp-mute, div.jp-video a.jp-unmute {
+    top: 27px;
+}
+div.jp-video-270p div.jp-type-single a.jp-mute, div.jp-video-270p div.jp-type-single a.jp-unmute {
+    left: 304px;
+}
+div.jp-video-270p div.jp-type-playlist a.jp-unmute, div.jp-video-270p div.jp-type-playlist a.jp-mute {
+    left: 363px;
+}
+div.jp-video-360p div.jp-type-single a.jp-mute, div.jp-video-360p div.jp-type-single a.jp-unmute {
+    left: 384px;
+}
+div.jp-video-360p div.jp-type-playlist a.jp-mute, div.jp-video-360p div.jp-type-playlist a.jp-unmute {
+    left: 443px;
+}
+a.jp-mute {
+    background: url("jplayer.blue.monday.png") no-repeat scroll 0 -186px transparent;
+}
+a.jp-mute:hover {
+    background: url("jplayer.blue.monday.png") no-repeat scroll -19px -170px transparent;
+}
+a.jp-unmute {
+    background: url("jplayer.blue.monday.png") no-repeat scroll 0 -170px transparent;
+    display: none;
+}
+a.jp-unmute:hover {
+    background: url("jplayer.blue.monday.png") no-repeat scroll -19px -186px transparent;
+}
+div.jp-volume-bar {
+    background: url("jplayer.blue.monday.png") repeat-x scroll 0 -226px transparent;
+    cursor: pointer;
+    height: 12px;
+    overflow: hidden;
+    position: absolute;
+    width: 54px;
+}
+div.jp-audio div.jp-type-single div.jp-volume-bar {
+    left: 250px;
+    top: 40px;
+}
+div.jp-audio div.jp-type-playlist div.jp-volume-bar {
+    left: 175px;
+    top: 25px;
+}
+div.jp-video div.jp-volume-bar {
+    top: 32px;
+}
+div.jp-video-270p div.jp-type-single div.jp-volume-bar {
+    left: 332px;
+}
+div.jp-video-270p div.jp-type-playlist div.jp-volume-bar {
+    left: 391px;
+}
+div.jp-video-360p div.jp-type-single div.jp-volume-bar {
+    left: 412px;
+}
+div.jp-video-360p div.jp-type-playlist div.jp-volume-bar {
+    left: 471px;
+}
+div.jp-volume-bar-value {
+    background: url("jplayer.blue.monday.png") repeat-x scroll 0 -238px transparent;
+    height: 12px;
+    width: 0;
+}
+div.jp-current-time, div.jp-duration {
+    color: #CACACA;
+    font-size: 0.8em;
+    font-style: oblique;
+    position: absolute;
+}
+div.jp-duration {
+    text-align: right;
+}
+div.jp-audio div.jp-type-single div.jp-current-time, div.jp-audio div.jp-type-single div.jp-duration {
+    left: 243px;
+    top: 11px;
+    width: 65px;
+}
+div.jp-audio div.jp-type-playlist div.jp-current-time, div.jp-audio div.jp-type-playlist div.jp-duration {
+    color: #444444;
+    left: 20px;
+    top: 49px;
+    width: 200px;
+}
+div.jp-video div.jp-current-time, div.jp-video div.jp-duration {
+    left: 0;
+    padding: 0 1%;
+    top: 10px;
+    width: 98%;
+}
+div.jp-playlist {
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+    background-color: #CCCCCC;
+    border-color: -moz-use-text-color #D2D2D2 #D2D2D2;
+    border-right: 1px solid #D2D2D2;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    width: 100%;
+}
+div.jp-playlist ul {
+    font-size: 0.82em;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0;
+}
+div.jp-type-single div.jp-playlist li {
+    font-weight: bold;
+    padding: 5px 0 5px 20px;
+}
+div.jp-type-playlist div.jp-playlist li {
+    border-bottom: 1px solid #EEEEEE;
+    padding: 5px 0 4px 20px;
+}
+div.jp-type-playlist div.jp-playlist li.jp-playlist-last {
+    border-bottom: medium none;
+    padding: 5px 0 5px 20px;
+}
+div.jp-type-playlist div.jp-playlist li.jp-playlist-current {
+    list-style-position: inside;
+    list-style-type: square;
+    padding-left: 8px;
+}
+div.jp-type-playlist div.jp-playlist a {
+    color: #666666;
+    text-decoration: none;
+}
+
+div.jp-type-playlist div.jp-playlist a:hover {
+    color: #0D88C1;
+}
+div.jp-type-playlist div.jp-playlist li .jp-del {
+    display: none;
+}
+div.jp-type-playlist div.jp-playlist li:hover .jp-del {
+    display: inline-block;
+    opacity: 0.4;
+}
+div.jp-type-playlist div.jp-playlist li .jp-del:hover {
+    display: inline-block;
+    opacity: 1;
+}
+div.jp-type-playlist div.jp-playlist a.jp-del img{
+    border: 0;
+}
+div.jp-type-playlist div.jp-playlist a.jp-del{
+    float: right;
+    cursor: pointer;
+}
+
+div.jp-type-playlist div.jp-playlist a.jp-playlist-current {
+    color: #0D88C1;
+}
+div.jp-type-playlist div.jp-playlist div.jp-free-media {
+    display: inline;
+    margin-left: 20px;
+}
+div.jp-video div.jp-video-play {
+    background: url("jplayer.blue.monday.video.play.png") no-repeat scroll center center transparent;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+}
+div.jp-video div.jp-video-play:hover {
+    background: url("jplayer.blue.monday.video.play.hover.png") no-repeat scroll center center transparent;
+}
+div.jp-video-270p div.jp-video-play {
+    height: 270px;
+    top: -270px;
+    width: 480px;
+}
+div.jp-video-360p div.jp-video-play {
+    height: 360px;
+    top: -360px;
+    width: 640px;
+}
+div.jp-jplayer {
+    height: 0;
+    width: 0;
+}
+div.jp-video div.jp-jplayer {
+    border-color: #009BE3 #009BE3 -moz-use-text-color;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;
+    z-index: 1;
+}
+div.jp-video-270p div.jp-jplayer {
+    height: 270px;
+    width: 480px;
+}
+div.jp-video-360p div.jp-jplayer {
+    height: 360px;
+    width: 640px;
+}
+div.jp-jplayer {
+    background-color: #000000;
+}
+.name_audio_morelisten{
+    background-color: #000000;
+    border-radius: 5px 5px 5px 5px;
+    margin: 10px;
+    padding: 4px;
+    position: relative;
+    top: 25px;
+    width: 200px;
+    color: #CACACA;
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}

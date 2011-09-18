@@ -1,0 +1,3 @@
+all:
+  stylesheets:    [/PubsPlugin/css/facebox.css]
+  javascripts:    [/sfDoctrineGuardPlugin/js/jquery-1.6.1.js, /PubsPlugin/js/facebox.js, /PubsPlugin/js/ui.core.js, /PubsPlugin/js/ui.draggable.js]

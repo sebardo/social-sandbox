@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+    <file original="global" source-language="en" datatype="plaintext">
+        <header/>
+        <body>        
+            <trans-unit>
+                <source>Configuration</source>
+                <target>Configuración</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Edit my info</source>
+                <target>Editar mi info</target>
+            </trans-unit>
+            <trans-unit>
+                <source>About me</source>
+                <target>Acerca de mí</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Interests</source>
+                <target>Intereses</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Basic Information</source>
+                <target>Información Básica</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Details</source>
+                <target>Detalles</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Account Settings and Privacy</source>
+                <target>Configuración de la cuenta y Privacidad</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Name</source>
+                <target>Nombre</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Password</source>
+                <target>Contraseña</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Messaging Settings</source>
+                <target>Configuración de mensajería</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Notifications</source>
+                <target>Notificaciones</target>
+            </trans-unit>
+            
+            <trans-unit>
+                <source>Who I'd like to meet</source>
+                <target>A quien te gustaria conocer</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Save changes</source>
+                <target>Guardar cambios</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Music</source>
+                <target>Musica</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Films</source>
+                <target>Peliculas</target>
+            </trans-unit>
+            
+            <trans-unit>
+                <source>Books</source>
+                <target>Libros</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Television</source>
+                <target>Televisión</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Games</source>
+                <target>Juegos</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Mobil</source>
+                <target>Movil</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Sex</source>
+                <target>Sexo</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Date of birth</source>
+                <target>Fecha de cumpleaños</target>
+            </trans-unit>
+            <trans-unit>
+                <source>City</source>
+                <target>Ciudad</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Country</source>
+                <target>País</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Zip code</source>
+                <target>Código Postal</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Native town</source>
+                <target>Ciudad de nacimiento</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Marital status</source>
+                <target>Estado civil</target>
+            </trans-unit>
+            <trans-unit>
+                <source>I am interested</source>
+                <target>Me interesan</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Religion</source>
+                <target>Religión</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Politic</source>
+                <target>Política</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Smoker</source>
+                <target>Fumador</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Drinker</source>
+                <target>Bebedor</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Education</source>
+                <target>Educación</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Profession</source>
+                <target>Profesión</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Languages</source>
+                <target>Lenguajes</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Email Address</source>
+                <target>Correo electrónico</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Username</source>
+                <target>Usuario</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Name</source>
+                <target>Nombres</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Last Name</source>
+                <target>Apellido</target>
+            </trans-unit>
+            <trans-unit>
+                <source>required</source>
+                <target>obligatorios</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Current Password</source>
+                <target>Contraseña actual</target>
+            </trans-unit>
+            <trans-unit>
+                <source>New Password</source>
+                <target>Contraseña nueva</target>
+            </trans-unit>
+            <trans-unit>
+                <source>All  filds are</source>
+                <target>Todos los campos son </target>
+            </trans-unit>
+            <trans-unit>
+                <source>The password is case-sensitive.</source>
+                <target>La contraseña es case-sensitive. (distingue mayúsculas de minúsculas)</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Verify Password</source>
+                <target>Verificar contraseña</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Cancel</source>
+                <target>Cancelar</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Change password</source>
+                <target>Cambiar contraseña</target>
+            </trans-unit>
+            
+            <trans-unit>
+                <source>Choose when and how often you send messages to</source>
+                <target>Elegir cuándo y con qué frecuencia me envíen mensajes a</target>
+            </trans-unit>
+            <trans-unit>
+                <source>change</source>
+                <target>cambiar</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Send me an email when</source>
+                <target>Envíeme un correo electrónico cuando</target>
+            </trans-unit>
+            <trans-unit>
+                <source>When send me a direct message.</source>
+                <target>Cuando me envíen un mensaje directo.</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Someone new has followed me.</source>
+                <target>Alguien nuevo me ha seguido.</target>
+            </trans-unit>
+            <trans-unit>
+                <source>When someone comments on my posts.</source>
+                <target>Cuando alguien comente mis publicaciones.</target>
+            </trans-unit>
+            <trans-unit>
+                <source>When someone likes one of my photos, audio or publications.</source>
+                <target>Cuando alguien le gusta una de mis fotos, audios o publicaciónes.</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Man</source>
+                <target>Hombre</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Woman</source>
+                <target>Mujer</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Information</source>
+                <target>Información</target>
+            </trans-unit>
+            
+            
+            
+            
+
+            
+        </body>
+    </file>
+</xliff>

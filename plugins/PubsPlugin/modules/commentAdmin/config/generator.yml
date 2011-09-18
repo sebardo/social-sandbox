@@ -1,0 +1,57 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Comment
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          commentAdmin
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:
+        record_model:       { label: Model }
+        record_id:          { label: Record }
+        created_at:         { label: Posted the }
+
+      list:
+        title:              Comments list
+        display:            [user, dest_user, record_model, record_id, _description, created_at]
+        sort:               [created_at, desc]
+        actions:            {}
+
+        object_actions:
+          _edit:            { label: Edit }
+          _delete:          { label: Delete }
+          comments:            {  label: Favlikes }
+        batch_actions:
+          _delete: ~
+      filter:
+        display:            [id, record_model, user_id, dest_user_id, record_model, record_id, description, created_at]
+      form:
+        display:
+          Author:           [user_id]
+          Receiver:         [dest_user_id]
+          Description:      [description]
+          Relation:         [record_model, record_id]
+        class:              commentAdminForm
+      edit:
+        title:              Edit comment
+        actions:
+          _list:            { label: Back to list }
+          _delete:          { label: Delete }
+          restore:          { label: Restore, action: restore }
+          save_and_delete:  { label: Save and Delete }
+          save_and_restore: { label: Save and Restore }
+          _save:            { label: Save }
+      new:
+        title:              Reply to comment
+        display:
+          Author:           [user_id]
+          Receiver:         [dest_user_id]
+          Description:      [description]
+          Relation:         [record_model, record_id]

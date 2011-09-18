@@ -1,0 +1,264 @@
+Location:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:             { type: integer, primary: true, autoincrement: true }
+    user_id:        {type: integer, notnull: false}
+    description:    { type: string(255), notnull: true }
+    is_active:       { type: integer, default: 0 }
+  relations:
+    User:
+      class:        sfGuardUser
+      local:        user_id
+      foreign:      id
+      foreignAlias: UserLocation
+
+Favlike:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:         { type: integer, primary: true, autoincrement: true }
+    record_model: { type: string(255), notnull: true }
+    record_id: {type: integer, notnull: true}
+    user_id: {type: integer, notnull: false}
+    dest_user_id: {type: integer, notnull: false}
+    is_active:      { type: integer,default: 0}
+  indexes:
+    record_model_record_id:
+      fields: [record_model, record_id]
+  relations:
+    User:
+      class:        sfGuardUser
+      local:        user_id
+      foreign:      id
+      foreignAlias: UserFavlikes
+    DestUser:
+      class:        sfGuardUser
+      local:        dest_user_id
+      foreign:      id
+      foreignAlias: DestUserFavlikes
+
+Comment:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:         { type: integer, primary: true, autoincrement: true }
+    description: { type: string(1024), notnull: true }
+    record_model: { type: string(255), notnull: true }
+    record_id: {type: integer, notnull: true}
+    user_id: {type: integer, notnull: false}
+    dest_user_id: {type: integer, notnull: false}
+    is_active:      { type: integer,default: 0}
+  indexes:
+    record_model_record_id:
+      fields: [record_model, record_id]
+  relations:
+    User:
+      class:        sfGuardUser
+      local:        user_id
+      foreign:      id
+      foreignAlias: UserComments
+    DestUser:
+      class:        sfGuardUser
+      local:        dest_user_id
+      foreign:      id
+      foreignAlias: DestUserComments
+
+Pubs:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:         { type: integer, primary: true, autoincrement: true }
+    record_model: { type: string(255), notnull: true }
+    record_id: {type: integer, notnull: true}
+    user_id: {type: integer, notnull: false}
+    dest_user_id: {type: integer, notnull: false}
+    is_active:      { type: integer,default: 0}
+  indexes:
+    record_model_record_id:
+      fields: [record_model, record_id]
+  relations:
+    User:
+      class:        sfGuardUser
+      local:        user_id
+      foreign:      id
+      foreignAlias: UserPubs
+    DestUser:
+      class:        sfGuardUser
+      local:        dest_user_id
+      foreign:      id
+      foreignAlias: DestUserPubs
+
+Audio:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:         { type: integer, primary: true, autoincrement: true }
+    user_id:    { type: integer, notnull: true }
+    filename:   { type: string(255), notnull: true }
+    description: { type: string(500), notnull: true }
+    plays: { type: integer(11), notnull: true }
+  relations:
+    User:
+      class:        sfGuardUser
+      local:        user_id
+      foreign:      id
+      foreignAlias: Audios
+
+Audio_has_playlist:
+  columns:
+    audio_id: { type: integer, notnull: true }
+    pl_id: { type: integer, notnull: true }
+    orden:      { type: integer(4)}
+  relations:
+    Audio:
+      class: Audio
+      local: audio_id
+      foreign: id
+      onDelete: CASCADE
+    Playlist:
+      class: Playlist
+      local: pl_id
+      foreign: id
+      onDelete: CASCADE
+
+Playlist:
+  actAs:
+    Timestampable: ~
+    Sluggable:
+      unique: true
+      fields: [name]
+      canUpdate: false
+  columns:
+    id: { type: integer, primary: true, autoincrement: true }
+    name: { type: string(255), notnull: true }
+    user_id: { type: integer, notnull: true }
+    description: { type: text }
+    image:  { type: string(255), notnull: true }
+    is_active: { type: boolean, notnull: false }
+    plays: { type: integer(11), notnull: true }
+  relations:
+    User:
+      class: sfGuardUser
+      local: user_id
+      foreign: id
+      onDelete: CASCADE
+      foreignAlias: Playlists
+
+Text:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:         { type: integer, primary: true, autoincrement: true }
+    user_id:    { type: integer, notnull: true }
+    description: { type: string(1024), notnull: true }
+  relations:
+    User:
+      class:        sfGuardUser
+      local:        user_id
+      foreign:      id
+      foreignAlias: Texts
+
+Link:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:         { type: integer, primary: true, autoincrement: true }
+    user_id:    { type: integer, notnull: true }
+    url:        { type: string(1024), notnull: true }
+    image:       { type: string(1024), notnull: true }
+    title:       { type: string(255), notnull: true }
+    site_name:        { type: string(255), notnull: true }
+    description:        { type: string(1024), notnull: true }
+  relations:
+    User:
+      class:        sfGuardUser
+      local:        user_id
+      foreign:      id
+      foreignAlias: Links
+
+Follow:
+  actAs:
+    Timestampable: ~
+  columns:
+    user_id:        { type: integer, notnull: true }
+    follow_id:   { type: integer, notnull: true }
+    is_active:      { type: integer, default:2}
+  relations:
+    User:
+      class: sfGuardUser
+      local: user_id
+      foreign: id
+      onDelete: CASCADE
+      foreignAlias: Following
+    DestUser:
+      class: sfGuardUser
+      local: follow_id
+      foreign: id
+      onDelete: CASCADE
+      foreignAlias: Follower
+
+Setting:
+  actAs:
+    Timestampable: ~
+  columns:
+    name:
+      type: string(255)
+      notnull: true
+    description:
+      type: text
+      notnull: false
+    is_active:
+      type: boolean
+      default: false
+
+Notification:
+  columns:
+    user_id:      { type: integer, notnull: true }
+    dest_user_id:      { type: integer, notnull: true }
+    record_model:  { type: string(255), notnull: true }
+    record_id:     { type: integer, notnull: true}
+    related_model: { type: string(255), notnull: true }
+    created_at:    { type: datetime, notnull: false }
+    is_active:     { type: boolean, default: false }
+  relations:
+    User:
+      class: sfGuardUser
+      local: user_id
+      foreign: id
+      onDelete: CASCADE
+      foreignAlias: UserNotifications
+    DestUser:
+      class: sfGuardUser
+      local: dest_user_id
+      foreign: id
+      onDelete: CASCADE
+      foreignAlias: DestUserNotifications
+
+Setting_has_User:
+  actAs:
+    Timestampable: ~
+  columns:
+    setting_id:
+      type: integer
+      notnull: true
+    user_id:
+      type: integer
+      notnull: false
+    is_active:
+      type: boolean
+      default: false
+    is_active: { type: boolean}
+  relations:
+    Settings:
+      class: Setting
+      local: setting_id
+      foreign: id
+      onDelete: CASCADE
+      foreignAlias: Settings
+    SettingsUser:
+      class: sfGuardUser
+      local: user_id
+      foreign: id
+      onDelete: CASCADE
+      foreignAlias: SettingsUser

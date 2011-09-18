@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+  <file original="global" source-language="en" datatype="plaintext">
+    <header/>
+    <body>
+       <trans-unit>
+                <source>You must be over 18 years</source>
+                <target>Sie müssen über 18 jare alt sein</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Can't be empty!</source>
+                <target>Es kann nicht leer sein ¡</target>
+            </trans-unit>
+             <trans-unit>
+                <source>Search</source>
+                <target>Suchen</target>
+            </trans-unit>           
+            <trans-unit>
+                <source>Home</source>
+                <target>Anfang</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Who to follow</source>
+                <target>Wem Folgen</target>
+            </trans-unit>
+            <trans-unit>
+                <source>My Profile</source>
+                <target>Mein Profil</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Inbox</source>
+                <target>Posteingang</target>
+            </trans-unit>
+            
+            <trans-unit>
+                <source>Follows</source>
+                <target>Anhänger</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Audios</source>
+                <target>Audios</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Events</source>
+                <target>Veranstaltungen</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Photos</source>
+                <target>Fotos</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Configuration</source>
+                <target>Konfiguration</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Logout</source>
+                <target>Abmelden</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Edit your profile</source>
+                <target>Profil bearbeiten</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Share</source>
+                <target>Teilen</target>
+            </trans-unit>
+            <trans-unit>
+                <source>My</source>
+                <target>Meine</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Pubs</source>
+                <target>Pubs</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Followings</source>
+                <target>a quien sigo</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Followers</source>
+                <target>Wem folge ich</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Likes</source>
+                <target>Gefällt mir</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Like</source>
+                <target>Gefällt mir</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Delete</source>
+                <target>Löschen</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Comments</source>
+                <target>Kommentieren</target>
+            </trans-unit>
+            <trans-unit>
+                <source>About</source>
+                <target>Über</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Published Successfully</source>
+                <target>Erfolgreiche Veröffentlichung</target>
+            </trans-unit>
+            <trans-unit>
+                <source>New Text</source>
+                <target>Neuer text</target>
+            </trans-unit>
+            <trans-unit>
+                <source>New Link</source>
+                <target>Neuer link</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Save</source>
+                <target>Aufbewahren</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Attach</source>
+                <target>Anfügen</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Must be contain a URL</source>
+                <target>Es muss eine URL enthalten</target>
+            </trans-unit>
+
+            <trans-unit>
+                <source>All Events</source>
+                <target>Alle veranstaltunegn</target>
+            </trans-unit>
+            <trans-unit>
+                <source>My </source>
+                <target>Meine </target>
+            </trans-unit>
+            <trans-unit>
+                <source>Calendar</source>
+                <target>Kalender</target>
+              </trans-unit>
+              <trans-unit>
+                <source>has changed its location to</source>
+                <target>hat ihre lokalisierung gewächselt</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Location</source>
+                <target>Lage</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Click to update</source>
+                <target>Aktualisieren</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

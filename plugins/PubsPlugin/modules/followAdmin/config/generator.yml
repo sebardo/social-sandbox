@@ -1,0 +1,54 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Follow
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          followAdmin
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:
+        user_id:            { label: User follow }
+        user_dest_id:       { label: Destination user follow }
+        created_at:         { label: Posted the }
+      list:
+        title:              Follow list
+        display:            [_user, _follow, _active, created_at]
+        sort:               [created_at, desc]
+        actions:            {}
+
+        object_actions:
+          _edit:            { label: Edit }
+          _delete:          { label: Delete }
+          favlikes:            {  label: Favlikes}
+        batch_actions:
+          _delete: ~
+      filter:
+        display:            [id, user_id, follow_id, is_active]
+      form:
+        display:
+          Author:           [user_id, follow_id]
+          Body:             [is_active]
+        class:              followAdminForm
+      edit:
+        title:              Edit publication
+        display: 
+          Author:           [user_id, follow_id]
+          Body:             [title, is_active, created_at, updated_at]
+        actions:
+          _list:            { label: Back to list }
+          _delete:          { label: Delete }
+          save_and_delete:  { label: Save and Delete }
+          save_and_restore: { label: Save and Restore }
+          _save:            { label: Save }
+      new:
+        title:              New follow
+        display:
+          Author:           [user_id, follow_id]
+          Body:             [is_active]

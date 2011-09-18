@@ -1,0 +1,7 @@
+all:
+  stylesheets:    []
+  javascripts:    [/sfDoctrineGuardPlugin/js/jquery-1.6.1.js, /sfDoctrineGuardPlugin/js/livevalidation_standalone.compressed.js]
+iframeNewSuccess:
+  has_layout:     false
+newSuccess:
+  has_layout:     false

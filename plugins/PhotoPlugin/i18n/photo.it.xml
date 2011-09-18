@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+    <file original="global" source-language="en" datatype="plaintext">
+        <header/>
+        <body>  
+            
+            <trans-unit>
+                <source>Profile photos</source>
+                <target>Foto di profilo</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Wall photos</source>
+                <target>Foto del muro</target>
+            </trans-unit>
+            <trans-unit>
+                <source>My albums</source>
+                <target>I miei album</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Albums by</source>
+                <target>Album di</target>
+            </trans-unit>
+            
+            <trans-unit>
+                <source>Add Photos</source>
+                <target>Caricare foto</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Upload in new album</source>
+                <target>Caricare foto nuovo album</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Next</source>
+                <target>Seguito</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Previous</source>
+                <target>Precedente</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Select as profile photo</source>
+                <target>Imposta come foto del profilo</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Select as cover</source>
+                <target>Imposta come copertina dell'album</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Edit</source>
+                <target>Edit</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Delete</source>
+                <target>Cancellare</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Tag this photo</source>
+                <target>Tag di questa foto</target>
+            </trans-unit>
+            <trans-unit>
+                <source>By</source>
+                <target>Di</target>
+            </trans-unit>
+            <trans-unit>
+                <source>by</source>
+                <target>di</target>
+            </trans-unit>
+            <trans-unit>
+                <source>me</source>
+                <target>me</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Title</source>
+                <target>Titolo</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Send</source>
+                <target>Inviare</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Cancel</source>
+                <target>Annullare</target>
+            </trans-unit>
+            <trans-unit>
+                <source>You must select an image</source>
+                <target>È necessario selezionare un'immagine</target>
+            </trans-unit>
+            <trans-unit>
+                <source>You can't do that</source>
+                <target>Non si puó fare questo</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Publish</source>
+                <target>Pubblicare</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Close</source>
+                <target>Chiudere</target>
+            </trans-unit>
+            <trans-unit>
+                <source>There is no album where you upload pictures create a new</source>
+                <target>"Non esiste un album in cui si caricano le immagini verrà creato un nuovo</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Load the image in the album</source>
+                <target>Si sta per aricare l'immagine in un album</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Load the image in a new album</source>
+                <target>Caricare l'immagine in un album</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Start a default album</source>
+                <target>Avvio di un album di default</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Search album</source>
+                <target>Cerca album</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Starting album</source>
+                <target>Avvio di album</target>
+            </trans-unit>
+            <trans-unit>
+                <source>No album selected</source>
+                <target>Nessun album selezionato</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Rel attribute is changed with title </source>
+                <target>Si cambia l´attributo del titolo </target>
+            </trans-unit>
+            <trans-unit>
+                <source> to </source>
+                <target> a </target>
+            </trans-unit>
+            <trans-unit>
+                <source>Don't load album because the album selected is: </source>
+                <target>Non caricare l'album selezionato perché l'album è: </target>
+            </trans-unit>
+            <trans-unit>
+                <source>and are trying to upload is</source>
+                <target>e l'album sta cercando di caricare è</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Editing the title of the album</source>
+                <target>Modificare il titolo dell'album</target>
+            </trans-unit>
+            <trans-unit>
+                <source>New order:</source>
+                <target>Nuovo ordine:</target>
+            </trans-unit>
+            <trans-unit>
+                <source>You've moved the image </source>
+                <target>Hai spostato l'immagine </target>
+            </trans-unit>
+            <trans-unit>
+                <source> to the album </source>
+                <target> l'album </target>
+            </trans-unit>
+            <trans-unit>
+                <source>assigning albums</source>
+                <target>assegnazione album</target>
+            </trans-unit>
+            <trans-unit>
+                <source>listing albums</source>
+                <target>lista album</target>
+            </trans-unit>
+            <trans-unit>
+                <source>listing images</source>
+                <target>lista immagini</target>
+            </trans-unit>
+            <trans-unit>
+                <source>No images to show</source>
+                <target>Nessuna immagine da mostrare</target>
+            </trans-unit>
+            <trans-unit>
+                <source>loading...</source>
+                <target>loading ...</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Click to edit...</source>
+                <target>Click per modificare</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Delete</source>
+                <target>Cancellare</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Select as cover</source>
+                <target>Selezionata come copertina</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Select as profile photo</source>
+                <target>Selezionato come immagine del profilo</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Edit</source>
+                <target>Edit</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Show</source>
+                <target>Mostrare</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Add title</source>
+                <target>Aggiungere il titolo</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Cancel</source>
+                <target>Annullare</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Save</source>
+                <target>Salvare</target>
+            </trans-unit>
+            <trans-unit>
+                <source>(delete)</source>
+                <target>(cancellare)</target>
+            </trans-unit>
+            <trans-unit>
+                <source>The following errors were found:</source>
+                <target>Sono stati trovati i seguenti errori:</target>
+            </trans-unit>
+            <trans-unit>
+                <source>No area to tag</source>
+                <target>Nessuna area per l'etichettatura</target>
+            </trans-unit>
+            <trans-unit>
+                <source>There's no name for the tag</source>
+                <target>Nessun nome per l'etichetta</target>
+            </trans-unit>
+            <trans-unit>
+                <source>assigning images the album</source>
+                <target>l'assegnazione di immagini per l'album</target>
+            </trans-unit>
+            <trans-unit>
+                <source>assigning as cover</source>
+                <target>assegnazione come copertina</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Photo uploaded correctly</source>
+                <target>Foto caricata correttamente</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Select an image file from your computer.</source>
+                <target>Selezionare un'immagine dal tuo computer</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Upload</source>
+                <target>Caricare</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Upload profile image</source>
+                <target>Caricare immagine di profilo</target>
+            </trans-unit>
+            <trans-unit>
+                <source>My photos</source>
+                <target>Le mie foto</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Photos</source>
+                <target>Foto</target>
+            </trans-unit>
+            <trans-unit>
+                <source>New Photo</source>
+                <target>Nuova foto</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Select a image</source>
+                <target>Seleziona una foto</target>
+            </trans-unit>
+            <trans-unit>
+                <source>File types supported [jpg, png, gif]</source>
+                <target>Tipi di file supportati [jpg, png, gif]</target>
+            </trans-unit>
+            
+            
+            
+            
+            
+        </body>
+    </file>
+</xliff>

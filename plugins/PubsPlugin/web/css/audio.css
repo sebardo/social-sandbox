@@ -1,0 +1,429 @@
+#audioContainer{
+    margin: auto;
+    width: 980px;
+}
+#form_new_audio{
+    margin: 0px;
+}
+#form_new_audio table{
+    width: 370px
+}
+.audio_left:hover .jp-audio .jp-type-playlist .jp-interface {
+    background-color: #EEEEEE;
+    display: inline-block;
+    opacity: 0.7;
+    position: absolute;
+    top: -80px;
+}
+.audio_left .jp-audio .jp-type-actions{
+    padding-top: 4px;
+}
+.audio_container{
+    margin-top: 10px;
+}
+.audio_left {
+    -moz-border-radius-bottomleft: 10px;
+    -moz-border-radius-topleft: 10px;
+    -webkit-box-shadow: #666 0 2px 3px;
+    background: none repeat scroll 0 0 #F4F4F4;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+    float: left;
+    padding-top: 10px;
+    width: 253px;
+    z-index: 4;
+}
+.audio_right {
+    -moz-border-radius-topright: 10px;
+    float: left;
+    padding: 20px;
+    width: 480px;    
+    background: none repeat scroll 0 0 #FFFFFF;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-topright: 10px;
+    -webkit-box-shadow: #666 0 2px 3px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+
+}
+.image_user_audio {
+}
+.audio_left .jp-audio .jp-type-playlist .jp-interface{
+    background-color: #EEEEEE;
+    display: none;
+    opacity: 0.7;
+    width: 240px;
+}
+.audio_left:hover .jp-audio .jp-type-playlist .jp-interface{
+    display: block;
+}
+.audio_left:hover .jp-audio .jp-type-playlist{
+    /*    top: -82px !important;
+        position: relative !important;*/
+}
+.audio_left:hover .jp-audio .jp-type-actions{
+    /*    top: -82px !important;
+        position: relative !important;*/
+}
+
+.audio_left div.jp-audio {
+    float: left;
+    padding-left: 6px;
+    position: relative;
+    width: 238px;
+}
+
+.songListTitle {
+    -moz-border-radius: 4px 4px 4px 4px;
+    background-color: #666666;
+    color: #FFFFFF;
+    float: left;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 32px;
+    width: inherit;
+}
+.listListTitle {
+    -moz-border-radius: 4px 4px 4px 4px;
+    background-color: #666666;
+    color: #FFFFFF;
+    float: left;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 32px;
+    width: inherit;
+}
+.songListTitle .col1 {
+    float: left;
+    height: 32px;
+    padding: 0 5px;
+    width: 16px;
+}
+.songListTitle .idx {
+    cursor: pointer;
+    float: left;
+    padding: 0 2px 0 0;
+    text-align: center;
+    width: 18px;
+}
+.listListTitle .col1 {
+    float: left;
+    height: 32px;
+    padding: 0 5px;
+    width: 16px;
+}
+.listListTitle .idx {
+    cursor: pointer;
+    float: left;
+    padding: 0 2px 0 0;
+    text-align: center;
+    width: 18px;
+}
+.songListTitle .song {
+    cursor: pointer;
+    float: left;
+    padding-left: 5px;
+    width: 259px;
+}
+.songListTitle .artist {
+    cursor: pointer;
+    float: left;
+    padding-left: 5px;
+    width: 198px;
+}
+.songListTitle .play {
+    cursor: pointer;
+    float: left;
+    padding: 0 5px 0 0;
+    text-align: right;
+    width: 51px;
+}
+.songListTitle .duration {
+    cursor: pointer;
+    float: left;
+    padding-left: 5px;
+    width: 89px;
+}
+.songListTitle .options {
+    float: left;
+    text-align: center;
+    width: 114px;
+}
+.listListTitle .options {
+    float: left;
+    text-align: center;
+    width: 104px;
+}
+.listListTitle .list {
+    cursor: pointer;
+    float: left;
+    padding-left: 5px;
+    width: 266px;
+}
+.listListTitle .description {
+    cursor: pointer;
+    float: left;
+    padding-left: 5px;
+    width: 280px;
+}
+.listListTitle .play {
+    cursor: pointer;
+    float: left;
+    padding: 0 5px 0 0;
+    text-align: right;
+    width: 51px;
+}
+.listIdx {
+    float: left;
+    padding: 0 2px 0 0;
+    width: 17px;
+    text-align: right;
+}
+.listName {
+    float: left;
+    font-weight: bold;
+    overflow: hidden;
+    padding-left: 5px;
+    width: 265px;
+}
+.listDescription {
+    float: left;
+    overflow: hidden;
+    padding-left: 5px;
+    width: 270px;
+}
+.listopt {
+    float: left;
+    text-align: center;
+    width: 90px;
+}
+.playBtn {
+    float: left;
+    /*    width: 35px;*/
+}
+.songIdx {
+    float: left;
+    padding: 0 2px 0 0;
+    text-align: right;
+    width: 17px;
+}
+.songName {
+    float: left;
+    font-weight: bold;
+    overflow: hidden;
+    padding-left: 5px;
+    width: 270px;
+}
+.songDescription {
+    float: left;
+    overflow: hidden;
+    padding-left: 5px;
+    width: 200px;
+}
+.plays {
+    float: left;
+    overflow: hidden;
+    padding-right: 15px;
+    text-align: right;
+    width: 34px;
+}
+.dur {
+    float: left;
+    padding-left: 5px;
+    text-align: center;
+    width: 89px;
+}
+.opt {
+    float: right;
+    padding-left: 30px;
+    text-align: center;
+    width: 80px;
+
+}
+.songItemList .favlike-action{
+    display: inline;
+}
+.audio_right ul {
+    float: left;
+    list-style: none outside none;
+    -moz-padding-start: 0px !important;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.audio_right li.songItemList {
+    border-bottom: 1px solid #CCCCCC;
+    color: #000000;
+    float: left;
+    font-size: 11px;
+    padding: 2px;
+    line-height: 22px;
+    /*    width: 100%;*/
+    opacity: 0.8;
+    cursor: pointer;
+}
+.audio_right li.listItem {
+    border-bottom: 1px solid #CCCCCC;
+    color: #000000;
+    cursor: pointer;
+    float: left;
+    font-size: 11px;
+    line-height: 22px;
+    opacity: 0.8;
+    padding: 2px;
+}
+.audio_right li.songItem:hover {
+    opacity: 1;
+}
+.audio_right h1 {
+    display: inline-block;
+    margin: 0 0 10px;
+}
+
+.audio_left .new_playlist {
+    display: inline-block !important;
+    float: right;
+
+}
+.audio_left .new_playlist:hover {
+    display: inline-block !important;
+    background-color: #FFAA22;
+    background-image: url("http://twitter.com/images/fronts/bg-btn-signup.png");
+    background-repeat: repeat-x;
+
+}
+.audio_left .del_playlist {
+    display: inline-block !important;
+    float: left;
+
+}
+.audio_left .del_playlist:hover {
+    display: inline-block !important;
+    background-color: #FFAA22;
+    background-image: url("http://twitter.com/images/fronts/bg-btn-signup.png");
+    background-repeat: repeat-x;
+
+}
+.new_audio {
+    /*    margin-top: 10px;*/
+    float: right;
+}
+.content-audio{
+    margin-top: 10px;
+}
+#new_audio_form{
+    margin-bottom: 0px;
+}
+.button .del {
+    background-position: -48px -15px;
+    height: 16px;
+    margin-bottom: 1px;
+    margin-top: 0;
+    width: 16px;
+}
+.button .add-audio {
+    background-position: -63px -15px;
+    height: 16px;
+    margin-bottom: 1px;
+    margin-top: 0;
+    width: 16px;
+}
+.new_audio:hover  .add-audio{
+    background-position: -271px -47px;
+}
+
+.new_audio .add-audio {
+    margin-left: 0;
+    margin-right: 6px;
+    padding-left: 0;
+    padding-top: 0 !important;
+    width: 16px;
+}
+
+.new_audio em {
+    display: inline-block;
+    font-style: normal;
+    position: relative;
+}
+.new_audio b {
+    display: inline-block;
+}
+.aviso{
+    display: block;
+}
+/*********************REPRODUCTOR EN PUB*********************/
+.pub-item div.jp-audio div.jp-type-single div.jp-interface {
+    border-bottom: medium none;
+    height: 90px;
+    width: 90px;
+    background-image: url('../../WallPlugin/images/audio.png');
+}
+
+.pub-item div.jp-interface {
+    position: relative;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.pub-item div.jp-audio {
+    float: left;
+    width: 100px;
+}
+
+.pub-item div.jp-audio div.jp-type-single a.jp-play, .pub-item div.jp-audio div.jp-type-single a.jp-pause {
+    left: 50px;
+    top: 50px;
+    opacity: 0.7;
+
+}
+.pub-item .title {
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 15px;
+    padding-left: 10px;
+}
+.pub-item div.jp-audio div.jp-type-single div.jp-progress {
+    height: 10px;
+    left: 100px;
+    top: 62px;
+    width: 150px;
+}
+.pub-item div.jp-audio div.jp-type-single div.jp-current-time, .pub-item div.jp-audio div.jp-type-single div.jp-duration {
+    left: 100px;
+    top: 45px;
+    width: 150px;
+}
+
+.pub-item div.jp-audio div.jp-type-single a.jp-mute, .pub-item div.jp-audio div.jp-type-single a.jp-unmute {
+    left: 100px;
+    top: 75px;
+}
+.pub-item div.jp-audio div.jp-type-single div.jp-volume-bar {
+    left: 130px;
+    top: 80px;
+}
+.playlist-actions{
+    display: inline-block;
+    margin: 6px;
+    overflow: hidden;
+    position: relative;
+    width: 240px;
+}
+i.view-playlist{
+    margin-right: 5px;
+    background-position: 0 -80px;
+    background-image: url("../../PubsPlugin/images/sprite-icons.png");
+    background-repeat: repeat;
+    display: inline-block;
+    height: 15px;
+    outline: medium none;
+    overflow: hidden;
+    position: relative;
+    top: 2px;
+    width: 17px;
+}
+

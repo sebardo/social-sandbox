@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+    <file original="global" source-language="en" datatype="plaintext">
+        <header/>
+        <body>        
+            <trans-unit>
+                <source>Audios</source>
+                <target>Audios von</target>
+            </trans-unit>
+            <trans-unit>
+                <source>List</source>
+                <target>Liste von</target>
+            </trans-unit>
+            <trans-unit>
+                <source>New Audio</source>
+                <target>Neue audio</target>
+            </trans-unit>
+            <trans-unit>
+                <source>SONG</source>
+                <target>LIED</target>
+            </trans-unit>
+            <trans-unit>
+                <source>PLAYS</source>
+                <target>SPIELE</target>
+            </trans-unit>
+            <trans-unit>
+                <source>ACTIONS</source>
+                <target>AKTIONEN</target>
+            </trans-unit>
+            <trans-unit>
+                <source>LIST NAME</source>
+                <target>NAME VON DER LISTE</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Del All</source>
+                <target>Alles löschen</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Add Playlist</source>
+                <target>Liste hinzufügen</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Select a mp3 file from your computer.</source>
+                <target>Wählen sie eine mp3 datei von ihrem Compüter.</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Description</source>
+                <target>Beschreibung</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Upload</source>
+                <target>Hochladen</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Delete</source>
+                <target>Löschen</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Publish</source>
+                <target>Veröffentlichen</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Save this Playlist ?</source>
+                <target>Diese liste speichern ?</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Clean my playlist ?</source>
+                <target>Playliste löschen ?</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Add</source>
+                <target>Hinzufügen</target>
+            </trans-unit>
+            <trans-unit>
+                <source>to my playlist ?</source>
+                <target>zu meiner playliste ?</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Add playlist to for reproduccion ?</source>
+                <target>Zu meiner playliste hinzufügen</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Select an mp3</source>
+                <target>Ein mp3 auswählen</target>
+            </trans-unit>
+            <trans-unit>
+                <source>File types supported [mp3]</source>
+                <target>Unterstützte dateitypen [mp3]</target>
+            </trans-unit>
+            
+            
+            
+
+            
+        </body>
+    </file>
+</xliff>

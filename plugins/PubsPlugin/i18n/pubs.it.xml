@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+    <file original="global" source-language="en" datatype="plaintext">
+        <header/>
+        <body>  
+            <trans-unit>
+                <source>You must be over 18 years</source>
+                <target>Devi avere oltre 18 anni</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Can't be empty!</source>
+                <target>Non può essere vuoto</target>
+            </trans-unit>
+             <trans-unit>
+                <source>Search</source>
+                <target>Ricerca</target>
+            </trans-unit>           
+            <trans-unit>
+                <source>Home</source>
+                <target>Home</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Who to follow</source>
+                <target>Chi seguire</target>
+            </trans-unit>
+            <trans-unit>
+                <source>My Profile</source>
+                <target>Il mio profilo</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Inbox</source>
+                <target>Messaggi</target>
+            </trans-unit>
+            
+            <trans-unit>
+                <source>Follows</source>
+                <target>Seguaci</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Audios</source>
+                <target>Audios</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Events</source>
+                <target>Eventi</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Photos</source>
+                <target>Foto</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Configuration</source>
+                <target>Configurazione</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Logout</source>
+                <target>Esci</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Edit your profile</source>
+                <target>Modifica il tuo profilo</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Share</source>
+                <target>Condividere</target>
+            </trans-unit>
+            <trans-unit>
+                <source>My</source>
+                <target>Le mie</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Pubs</source>
+                <target>Pub</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Followings</source>
+                <target>Chi seguito</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Followers</source>
+                <target>Seguaci</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Likes</source>
+                <target>Mi piace</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Like</source>
+                <target>Mi piace</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Delete</source>
+                <target>Cancellare</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Comments</source>
+                <target>Commenti</target>
+            </trans-unit>
+            <trans-unit>
+                <source>About</source>
+                <target>Circa</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Published Successfully</source>
+                <target>Pubblicazione di successo</target>
+            </trans-unit>
+            <trans-unit>
+                <source>New Text</source>
+                <target>Nuovo testo</target>
+            </trans-unit>
+            <trans-unit>
+                <source>New Link</source>
+                <target>Nuovo collegamento</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Save</source>
+                <target>Salvare</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Attach</source>
+                <target>Aggiungere</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Must be contain a URL</source>
+                <target>Dovrebbe contenere un URL</target>
+            </trans-unit>
+
+            <trans-unit>
+                <source>All Events</source>
+                <target>Tutti gli eventi</target>
+            </trans-unit>
+            <trans-unit>
+                <source>My </source>
+                <target>Mio </target>
+            </trans-unit>
+            <trans-unit>
+                <source>Calendar</source>
+                <target>Calendario</target>
+            </trans-unit>
+             <trans-unit>
+                <source>has changed its location to</source>
+                <target>ha cambiato la sua posizione a</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Location</source>
+                <target>Posizione</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Click to update</source>
+                <target>Aggiornare</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

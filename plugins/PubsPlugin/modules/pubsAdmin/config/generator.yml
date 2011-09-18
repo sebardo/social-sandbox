@@ -1,0 +1,60 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Pubs
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          pubsAdmin
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:
+        user_id:            { label: User }
+        user_dest_id:       { label: Destination user}
+        record_model:       { label: Model}
+        created_at:         { label: Posted the }
+
+      list:
+        title:              Publications list
+        display:            [_user, _dest_user, record_model, record_id, created_at]
+        sort:               [created_at, desc]
+        actions:            {}
+
+        object_actions:
+          _edit:            { label: Edit }
+          _delete:          { label: Delete }
+          comments:            {  label: Comment }
+          favlikes:            {  label: Favlike }
+        batch_actions:
+          _delete: ~
+
+      filter:
+        display:            [id, user_id, dest_user_id, record_model, record_id]
+      form:
+        display:
+          Author:           [user_id, dest_user_id]
+          Body:             [record_model, record_id, is_active]
+
+        class:              pubsAdminForm
+      edit:
+        title:              Edit publication
+        display: 
+          Author:           [user_id, dest_user_id]
+          Body:             [title, record_model, record_id, is_active, created_at, updated_at]
+        actions:
+          _list:            { label: Back to list }
+          _delete:          { label: Delete }
+
+          save_and_delete:  { label: Save and Delete }
+          save_and_restore: { label: Save and Restore }
+          _save:            { label: Save }
+      new:
+        title:              New publication
+        display:
+          Author:           [user_id, user_dest_id]
+          Body:             [record_model, record_id, is_active]

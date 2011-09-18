@@ -1,0 +1,1 @@
+<?php echo __('Like', null , 'pubs')?> (<?php echo count($favlikes); ?>)

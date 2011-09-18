@@ -1,0 +1,7 @@
+all:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: mysql:host=localhost;dbname=test_5
+      username: root
+      password:

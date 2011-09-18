@@ -1,0 +1,7 @@
+all:
+  stylesheets:    [/InboxPlugin/css/inbox.css, /sfFormExtraPlugin/css/jquery.autocompleter.css, /PubsPlugin/css/facebox.css]
+  javascripts:    [/sfDoctrineGuardPlugin/js/jquery-1.4.2.js, /sfFormExtraPlugin/js/jquery.autocompleter.js, /PubsPlugin/js/facebox.js,  /PubsPlugin/js/ui.core.js, /PubsPlugin/js/ui.draggable.js]
+newSuccess:
+  has_layout:     false
+showSuccess:
+  has_layout:     false

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+    <file original="global" source-language="en" datatype="plaintext">
+        <header/>
+        <body>
+            <trans-unit>
+                <source>Email</source>
+                <target>Correo electrónico</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Username</source>
+                <target>Usuario</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Password</source>
+                <target>Contraseña</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Remember</source>
+                <target>Recordar</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Have an acount ?</source>
+                <target>¿Ya tienes una cuenta?</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Sign in</source>
+                <target>Ingresar</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Sign up</source>
+                <target>Regístrate</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Forgot your password?</source>
+                <target>¿Olvidó su contraseña?</target>
+            </trans-unit>
+            <trans-unit>
+                <source>You don't have the required permission to access this page.</source>
+                <target>No tiene los permisos requeridos para acceder a esta página.</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Sex</source>
+                <target>Sexo</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Birthday</source>
+                <target>Fecha de Nac</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Do not worry, we can help you get back in to your account safely!</source>
+                <target>No se preocupe, podemos ayudarle a volver a su cuenta de forma segura!</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Fill out the form below to request an e-mail with information on how to reset your password.</source>
+                <target>Rellene el siguiente formulario para solicitar un e-mail con información sobre cómo restablecer la contraseña.</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Request</source>
+                <target>Solicitar</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
